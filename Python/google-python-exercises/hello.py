@@ -26,7 +26,7 @@ def main():
         name = sys.argv[1]
     else:
         name = 'World'
-    print 'Howdy', name
+    print 'Hello', name
 
 
 # This is the standard boilerplate that calls the main() function.
