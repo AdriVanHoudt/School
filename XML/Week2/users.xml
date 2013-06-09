@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+	<user>
+		<fullname>Dirk Cassiers</fullname>
+		<background>
+			<start-color>ivory</start-color>
+			<end-color>red</end-color>
+		</background>
+	</user>
+	<user>
+		<fullname>Els Artois</fullname>
+		<background>
+			<start-color>#FFD83434</start-color>
+			<end-color>#FF3C2F2F</end-color>
+		</background>
+	</user>
+	<user>
+		<fullname>Sabine Van Linden</fullname>
+		<background>
+			<start-color>#FF1E2707</start-color>
+			<end-color>#FF25154E</end-color>
+		</background>
+	</user>
+</users>

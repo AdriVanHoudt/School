@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.Domain", "MusicStore.Domain\MusicStore.Domain.csproj", "{17F5E9BE-E9C6-43E4-B7CF-CE4C902733DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.WebUI", "MusicStore.WebUI\MusicStore.WebUI.csproj", "{0AD9A402-B2BA-457A-A74F-F72A0F452DD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17F5E9BE-E9C6-43E4-B7CF-CE4C902733DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F5E9BE-E9C6-43E4-B7CF-CE4C902733DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F5E9BE-E9C6-43E4-B7CF-CE4C902733DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F5E9BE-E9C6-43E4-B7CF-CE4C902733DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD9A402-B2BA-457A-A74F-F72A0F452DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD9A402-B2BA-457A-A74F-F72A0F452DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD9A402-B2BA-457A-A74F-F72A0F452DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD9A402-B2BA-457A-A74F-F72A0F452DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Layout_08_Equal_Parts</string>
+    <string name="top">Top</string>
+    <string name="bottom">Bottom</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<letters>
+	<letter number="1" type="klinker">a</letter>
+	<letter number="2" type="medeklinker">b</letter>
+	<letter number="3" type="medeklinker">c</letter>
+	<letter number="4" type="medeklinker">d</letter>
+	<letter number="5" type="klinker">e</letter>
+	<letter number="6" type="medeklinker">f</letter>
+	<letter number="7" type="medeklinker">g</letter>
+	<letter number="8" type="medeklinker">h</letter>
+	<letter number="9" type="klinker">i</letter>
+	<letter number="10" type="medeklinker">j</letter>
+	<letter number="11" type="medeklinker">k</letter>
+	<letter number="12" type="medeklinker">l</letter>
+	<letter number="13" type="medeklinker">m</letter>
+	<letter number="14" type="medeklinker">n</letter>
+	<letter number="15" type="klinker">o</letter>
+	<letter number="16" type="medeklinker">p</letter>
+	<letter number="17" type="medeklinker">q</letter>
+	<letter number="18" type="medeklinker">r</letter>
+	<letter number="19" type="medeklinker">s</letter>
+	<letter number="20" type="medeklinker">t</letter>
+	<letter number="21" type="klinker">u</letter>
+	<letter number="22" type="medeklinker">v</letter>
+	<letter number="23" type="medeklinker">w</letter>
+	<letter number="24" type="medeklinker">x</letter>
+	<letter number="25" type="medeklinker">y</letter>
+	<letter number="26" type="medeklinker">z</letter>		
+</letters>
+

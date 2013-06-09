@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Layout_Grid</string>
+    <string name="kop">Email setup</string>
+    <string name="uitleg">You can configure email in just a few steps:</string>
+    <string name="email">Email address:</string>
+    <string name="wachtwoord">Password:</string>
+    <string name="buttontext">Next</string>
+</resources>

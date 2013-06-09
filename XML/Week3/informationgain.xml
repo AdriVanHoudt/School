@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+			Information Gain values for : 
+			N_GRAM_TOKEN2
+
+			The ngrams are sorted (sort order = descending): 
+				by information gain
+				
+		-->
+<information-gain-values analysis="N_GRAM_TOKEN2">
+	<n-gram gain="1" frequency="7" probability="0.001">het leven</n-gram>
+	<n-gram gain="0.682" frequency="9" probability="0.002">= Zo</n-gram>
+	<n-gram gain="0.657" frequency="8" probability="0.002">= Maar</n-gram>
+	<n-gram gain="0.657" frequency="8" probability="0.002">van een</n-gram>
+	<n-gram gain="0.627" frequency="7" probability="0.001">? =</n-gram>
+	<n-gram gain="0.59" frequency="6" probability="0.001">te kunnen</n-gram>
+	<n-gram gain="0.59" frequency="6" probability="0.001">denk dat</n-gram>
+	<n-gram gain="0.59" frequency="12" probability="0.002">= Hij</n-gram>
+	<n-gram gain="0.508" frequency="13" probability="0.003">Artificiële Intelligentie</n-gram>
+	<n-gram gain="0.455" frequency="7" probability="0.001">de film</n-gram>
+	<n-gram gain="0.454" frequency="11" probability="0.002">= Er</n-gram>
+	<n-gram gain="0.421" frequency="6" probability="0.001">Ik denk</n-gram>
+	<n-gram gain="0.398" frequency="8" probability="0.002">= Wat</n-gram>
+	<n-gram gain="0.392" frequency="18" probability="0.004">= Ik</n-gram>
+	<n-gram gain="0.387" frequency="10" probability="0.002">de wereld</n-gram>
+	<n-gram gain="0.378" frequency="7" probability="0.001">= Ook</n-gram>
+	<n-gram gain="0.375" frequency="9" probability="0.002">de robot</n-gram>
+	<n-gram gain="0.369" frequency="6" probability="0.001">de computer</n-gram>
+	<n-gram gain="0.309" frequency="11" probability="0.002">in het</n-gram>
+	<n-gram gain="0.227" frequency="9" probability="0.002">is een</n-gram>
+	<n-gram gain="0.21" frequency="6" probability="0.001">is het</n-gram>
+	<n-gram gain="0.21" frequency="6" probability="0.001">is dus</n-gram>
+	<n-gram gain="0.21" frequency="6" probability="0.001">is dat</n-gram>
+	<n-gram gain="0.164" frequency="24" probability="0.005">de mens</n-gram>
+	<n-gram gain="0.13" frequency="7" probability="0.001">= Op</n-gram>
+	<n-gram gain="0.13" frequency="7" probability="0.001">, die</n-gram>
+	<n-gram gain="0.13" frequency="7" probability="0.001">door de</n-gram>
+	<n-gram gain="0.13" frequency="7" probability="0.001">in staat</n-gram>
+	<n-gram gain="0.118" frequency="35" probability="0.007">van de</n-gram>
+	<n-gram gain="0.113" frequency="16" probability="0.003">, maar</n-gram>
+	<n-gram gain="0.081" frequency="15" probability="0.003">= Dit</n-gram>
+	<n-gram gain="0.081" frequency="15" probability="0.003">dat de</n-gram>
+	<n-gram gain="0.079" frequency="6" probability="0.001">niet zo</n-gram>
+	<n-gram gain="0.079" frequency="6" probability="0.001">aan de</n-gram>
+	<n-gram gain="0.079" frequency="6" probability="0.001">= Men</n-gram>
+	<n-gram gain="0.079" frequency="6" probability="0.001">met een</n-gram>
+	<n-gram gain="0.079" frequency="6" probability="0.001">robot .</n-gram>
+	<n-gram gain="0.079" frequency="13" probability="0.003">= Een</n-gram>
+	<n-gram gain="0.063" frequency="20" probability="0.004">= Het</n-gram>
+	<n-gram gain="0.057" frequency="11" probability="0.002">op een</n-gram>
+	<n-gram gain="0.057" frequency="11" probability="0.002">van het</n-gram>
+	<n-gram gain="0.054" frequency="8" probability="0.002">zijn .</n-gram>
+	<n-gram gain="0.046" frequency="26" probability="0.005">in de</n-gram>
+	<n-gram gain="0.025" frequency="27" probability="0.005">= De</n-gram>
+	<n-gram gain="0.025" frequency="279" probability="0.055">. =</n-gram>
+	<n-gram gain="0.023" frequency="13" probability="0.003">= Deze</n-gram>
+	<n-gram gain="0.019" frequency="12" probability="0.002">met de</n-gram>
+	<n-gram gain="0.018" frequency="7" probability="0.001">dat er</n-gram>
+	<n-gram gain="0.008" frequency="11" probability="0.002">is .</n-gram>
+</information-gain-values>

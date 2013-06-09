@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+   <Canvas.Background>
+      <LinearGradientBrush>
+         <GradientStop Color="Red"/>
+         <GradientStop Color="Ivory" Offset="1"/>
+      </LinearGradientBrush>
+   </Canvas.Background>
+   <Rectangle Canvas.Left="100" Canvas.Top="25" Width="20" Height="20" Fill="green"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="50" Width="20" Height="20" Fill="green"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="75" Width="20" Height="20" Fill="red"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="100" Width="20" Height="20" Fill="ivory"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="125" Width="20" Height="20" Fill="red"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="150" Width="20" Height="20" Fill="red"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="175" Width="20" Height="20" Fill="red"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="200" Width="20" Height="20" Fill="red"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="225" Width="20" Height="20" Fill="ivory"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="250" Width="20" Height="20" Fill="red"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="275" Width="20" Height="20" Fill="green"/>
+   <Rectangle Canvas.Left="100" Canvas.Top="300" Width="20" Height="20" Fill="green"/>
+</Canvas>

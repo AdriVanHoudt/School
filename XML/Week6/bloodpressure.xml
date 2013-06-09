@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<blood-pressure-chart>
+	<caption>
+		<heading>Blood Pressure : Subject P001</heading>
+	</caption>
+	<y-labels>
+		<label number="1">0</label>
+		<label number="2">50</label>
+		<label number="3">100</label>
+		<label number="4">150</label>
+		<label number="5">200</label>
+		<label number="6">250</label>
+	</y-labels>
+	<limits>
+		<upper-limit>117</upper-limit>	
+		<lower-limit>83</lower-limit>			
+	</limits>
+	<values>
+		<value number="1" date="04.08" valid="yes">
+			<systolic>109</systolic>
+			<diastolic>90</diastolic>		
+		</value>
+		<value number="2" date="05.08" valid="yes">
+			<systolic>115</systolic>
+			<diastolic>90</diastolic>		
+		</value>
+		<value number="3" date="06.08" valid="no">
+			<systolic>0</systolic>
+			<diastolic>0</diastolic>		
+		</value>
+		<value number="4" date="07.08" valid="yes">
+			<systolic>110</systolic>
+			<diastolic>85</diastolic>		
+		</value>
+		<value number="5" date="08.08" valid="yes">
+			<systolic>120</systolic>
+			<diastolic>75</diastolic>		
+		</value>								
+		<value number="6" date="09.08" valid="yes">
+			<systolic>124</systolic>
+			<diastolic>92</diastolic>		
+		</value>
+		<value number="7" date="10.08" valid="no">
+			<systolic>109</systolic>
+			<diastolic>95</diastolic>		
+		</value>
+		<value number="8" date="11.08" valid="yes">
+			<systolic>117</systolic>
+			<diastolic>100</diastolic>		
+		</value>
+		<value number="9" date="12.08" valid="yes">
+			<systolic>121</systolic>
+			<diastolic>88</diastolic>		
+		</value>												
+	</values>
+</blood-pressure-chart>

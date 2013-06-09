@@ -1,0 +1,105 @@
+﻿@model MusicStore.WebUI.ViewModels.ShoppingCartViewModel
+@{
+    ViewBag.Title = "Shopping Cart - Index";
+}
+<script type="text/javascript">
+    $(function () {
+        // Add an handler on the element RemoveLink         
+        $(".RemoveLink").click(function () {
+            // Retrieve the data-id attribute containing the ID of the album to remove
+            var albumIdToRemove = $(this).attr("data-id");
+            if (albumIdToRemove != '') {
+                //Create an HTTP-post request to the RemoveFromCart method of the ShoppingCart Controller
+                // and assing the delegate containing the code which needs to be
+                // executed after the response of the HTTP-post call has been received
+                $.post("/ShoppingCart/RemoveFromCart", { "albumIdToRemove": albumIdToRemove },
+                function (data) {
+                    // Successful requests get here
+                    // Update the page elements
+                    //var data = Sys.Serialization.JavaScriptSerializer.deserialize(json);
+                    if (data.ItemCount == 0) {
+                        $('#row-' + data.DeleteId).fadeOut('slow');
+                    } else {
+                        $('#item-count-' + data.DeleteId).text(data.ItemCount);
+                    }
+
+                    $('#cart-total').text(data.CartTotal);
+                    $('#update-message').text(data.Message);
+                    $('#cart-status').text('Cart (' + data.CartCount + ')');
+                }, "json"); // "json" not needed -> jquery uses 'Intelligent Guess (xml, json, script, text, html)' by default!
+            }
+        });
+
+    });
+
+//    function handleUpdate() {
+//        // Load and deserialize the returned JSON data
+//        var json = context.get_data();
+//        var data = Sys.Serialization.JavaScriptSerializer.deserialize(json);
+
+//        // Update the page elements
+//        if (data.ItemCount == 0) {
+//            $('#row-' + data.DeleteId).fadeOut('slow');
+//        }
+//        else {
+//            $('#item-count-' + data.DeleteId).text(data.ItemCount);
+//        }
+
+//        $('#cart-total').text(data.CartTotal);
+//        $('#update-message').text(data.Message);
+//        $('#cart-status').text('Cart (' + data.CartCount + ')');
+//    }
+</script>
+<h3>
+    <em>Review</em> your cart:
+</h3>
+<p class="button">
+    @Html.ActionLink("Back to store", "Index", "Store")
+</p>
+<div id="update-message">
+</div>
+<table>
+    <tr>
+        <th>
+            Album Name
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Action
+        </th>
+    </tr>
+    @foreach (var item in Model.CartItems)
+    {
+        <tr id="row-@item.AlbumId">
+            <td>
+                @Html.ActionLink(item.Album.Title, "Details", "Store", new { id = item.AlbumId }, "")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Album.Price)
+            </td>
+            <td id="item-count-@item.AlbumId">
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                <a href="#" class="RemoveLink" data-id="@item.AlbumId">Remove album from cart</a>
+            </td>
+        </tr>
+    }
+    <tr>
+        <tr>
+            <td colspan="3">
+                <strong>Total</strong>
+            </td>
+            <td id="cart-total">
+                <strong>@Model.CartTotal</strong>
+            </td>
+        </tr>
+</table>
+<p class="button">
+    @Html.ActionLink("Checkout >>", "AddressAndPayment", "Checkout")
+</p>

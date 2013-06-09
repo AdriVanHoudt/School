@@ -1,0 +1,49 @@
+﻿@model Domain.POCO.Project
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Project</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Naam)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Naam)
+            @Html.ValidationMessageFor(model => model.Naam)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Omschrijving)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Omschrijving)
+            @Html.ValidationMessageFor(model => model.Omschrijving)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ContextId, "context")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("ContextId", String.Empty)
+            @Html.ValidationMessageFor(model => model.ContextId)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

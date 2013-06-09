@@ -1,0 +1,13 @@
+/*C3*/SET SCHEMA PUBLIC
+DROP TABLE IF EXISTS gebruikers
+CREATE TABLE gebruikers (sleutel INT NOT NULL PRIMARY KEY,voornaam VARCHAR(20) NOT NULL,familienaam VARCHAR(30) NOT NULL,gebruikersnaam VARCHAR(20) NOT NULL,wachtwoord VARCHAR(20) NOT NULL)
+INSERT INTO GEBRUIKERS VALUES(1,'Jos','Gils','gils','swordfish')
+INSERT INTO GEBRUIKERS VALUES(2,'Erik','Goossens','goose','matrix')
+INSERT INTO GEBRUIKERS VALUES(3,'Theo','Jansens','jans','sleepless')
+INSERT INTO GEBRUIKERS VALUES(4,'Luc','Lambrecht','lam','stigmata')
+INSERT INTO GEBRUIKERS VALUES(5,'Ronny','Verlinden','ronny','silence')
+INSERT INTO GEBRUIKERS VALUES(6,'Kris','Van Gompel','gompy','outbreak')
+INSERT INTO GEBRUIKERS VALUES(7,'Els','D''Heer','d''heer','o''cool')
+INSERT INTO GEBRUIKERS VALUES(8,'Tom','Van den Eede','tom','nightowl')
+COMMIT
+DISCONNECT

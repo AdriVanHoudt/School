@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <!-- Grid Def -->
+  <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="1*"/>
+    <ColumnDefinition Width="3*"/>
+    <ColumnDefinition Width="1*"/>
+  </Grid.ColumnDefinitions>
+ 
+  <Grid.Background>
+    <LinearGradientBrush>
+      <GradientStop Color="#FF3B596E" />
+      <GradientStop Color="#FF93C5E8" Offset="1" />
+    </LinearGradientBrush>
+  </Grid.Background>
+
+<!-- Canvas Def -->
+  <Canvas Grid.Column="1" Height="750" Width="1000">
+  
+    <Canvas.Background>
+      <LinearGradientBrush>
+        <GradientStop Color="#FF93C5E8" />
+        <GradientStop Color="#FF3B596E" Offset="1" />
+      </LinearGradientBrush>
+    </Canvas.Background>
+    
+   <!-- axis --> 
+    <Line X1="100" X2="820" Y1="200" Y2="200" Stroke="Red" StrokeThickness="3" /> 
+    <Line X1="100" X2="100" Y1="200" Y2="600" Stroke="Red" StrokeThickness="3" />
+    
+    <Line X1="100" X2="820" Y1="300" Y2="300" Stroke="Red" StrokeThickness="2" /> 
+    <Line X1="100" X2="820" Y1="400" Y2="400" Stroke="Red" StrokeThickness="2" /> 
+    <Line X1="100" X2="820" Y1="500" Y2="500" Stroke="Red" StrokeThickness="2" />   
+    <Line X1="100" X2="820" Y1="600" Y2="600" Stroke="Red" StrokeThickness="2" />
+   
+    <!-- axis titles -->
+    <Border Canvas.Top="190" Canvas.Left="0" Width="150" Height="20">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="0" Foreground="Ivory" FontSize="20" />
+    </Border>
+    <Border Canvas.Top="290" Canvas.Left="0" Width="150" Height="20">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="0" Foreground="Ivory" FontSize="20" />
+    </Border>
+    
+     <!-- Title -->
+    <Border Canvas.Top="20" Canvas.Left="415" Width="170" Height="40">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Accuracy" Foreground="Ivory" FontSize="25" />
+    </Border>
+    <!-- Column titles --> 
+     <Border Canvas.Top="100" Canvas.Left="160" BorderBrush="Red" BorderThickness="2" Width="120" Height="40">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Sum 1-20" Foreground="Ivory" FontSize="18" />
+     </Border>
+     <Border Canvas.Top="100" Canvas.Left="380" BorderBrush="Red" BorderThickness="2" Width="120" Height="40">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Sum 1-20" Foreground="Ivory" FontSize="18" />
+     </Border>
+      <Border Canvas.Top="100" Canvas.Left="600" BorderBrush="Red" BorderThickness="2" Width="120" Height="40">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Sum 41-60" Foreground="Ivory" FontSize="18" />
+     </Border>
+    
+  <!-- Bars -->  
+    <Border Canvas.Top="200" Canvas.Left="140" BorderBrush="Ivory" BorderThickness="1" Width="40" Height="100" Background="blue">
+      <TextBlock HorizontalAlignment="center" VerticalAlignment="Bottom" Text="200" Background="blue" Foreground="Ivory" />
+    </Border>
+     <Border Canvas.Top="200" Canvas.Left="200" BorderBrush="Ivory" BorderThickness="1" Width="40" Height="50" Background="Black">
+      <TextBlock HorizontalAlignment="center" VerticalAlignment="Bottom" Text="200" Background="Black" Foreground="Ivory" />
+    </Border>
+     <Border Canvas.Top="200" Canvas.Left="260" BorderBrush="Ivory" BorderThickness="1" Width="40" Height="150" Background="Black">
+      <TextBlock HorizontalAlignment="center" VerticalAlignment="Bottom" Text="200" Background="Black" Foreground="Ivory" />
+    </Border>
+    
+    
+     <Border Canvas.Top="200" Canvas.Left="360" BorderBrush="Ivory" BorderThickness="1" Width="40" Height="150" Background="Black">
+      <TextBlock HorizontalAlignment="center" VerticalAlignment="Bottom" Text="200" Background="Black" Foreground="Ivory" />
+    </Border>
+     <Border Canvas.Top="200" Canvas.Left="580" BorderBrush="Ivory" BorderThickness="1" Width="40" Height="150" Background="Black">
+      <TextBlock HorizontalAlignment="center" VerticalAlignment="Bottom" Text="200" Background="Black" Foreground="Ivory" />
+    </Border>
+    
+    <!-- legend -->
+   <Border Canvas.Top="650" Canvas.Left="100" Width="240" Height="35" Background="#FF0093DD">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="N° of correct responses" Foreground="Ivory" FontSize="13" Background="#FF0093DD" />
+     </Border>
+     <Border Canvas.Top="650" Canvas.Left="340" Width="240" Height="35" Background="#88889300">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="N° of incorrect responses" Foreground="Ivory" FontSize="13" Background="#FF0093DD" />
+     </Border>
+     <Border Canvas.Top="650" Canvas.Left="580" Width="240" Height="35" Background="#FF0093DD">
+      <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="N° of correct responses" Foreground="Ivory" FontSize="13" Background="#FF0093DD" />
+     </Border>
+    
+  </Canvas>
+ </Grid>
