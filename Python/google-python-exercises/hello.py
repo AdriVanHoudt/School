@@ -21,13 +21,36 @@ import sys
 
 # Define a main() function that prints a little greeting.
 def main():
-    # Get the name from the command line, using 'World' as a fallback.
+    ## Get the name from the command line, using 'World' as a fallback.
     if len(sys.argv) >= 2:
         name = sys.argv[1]
     else:
         name = 'World'
     print 'Howdy', name
 
+    print repeat('Adri', True, 3)
+
+    ## string test
+    s = 'hi'
+    print s[1]
+    print len(s)
+    print s + ' there'
+
+    pi = 3.14
+    ## print 'the value of pi is ' + pi ## doesn't work
+    print 'the value of pi is ' + str(pi)
+
+    ## sys import test
+    sys.exit(0)
+
+
+# defining function test
+def repeat(s, exclaim, times):
+    result = s * times
+
+    if exclaim:
+        result += '!!!'
+    return result
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
