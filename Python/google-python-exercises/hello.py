@@ -40,6 +40,32 @@ def main():
     ## print 'the value of pi is ' + pi ## doesn't work
     print 'the value of pi is ' + str(pi)
 
+    print 6 // 5  # double slashes because logic
+
+    ## test for raw and multi strings
+    raw = r'this\t\n and that'
+    ## tab before second line is also added!
+    multi = """It was the best of times.
+    It was the worst of times."""
+
+    print raw
+    print multi
+
+    print raw  # this\t\n and that
+
+    ## Methods
+    s = '555'
+    if s.isdigit():
+        print s
+    s = 'some text just for test'
+    print s.find('text')
+    s = 'Hello'
+
+    print s[:len(s)] + s[len(s):]
+
+    ## %
+    print "%d little pigs come out or I'll %s and %s and %s" % (3, 'huff', 'puff', 'blow down')
+
     ## sys import test
     sys.exit(0)
 
