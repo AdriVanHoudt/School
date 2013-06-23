@@ -59,16 +59,34 @@ def main():
         print s
     s = 'some text just for test'
     print s.find('text')
-    s = 'Hello'
 
+    s = 'Hello'
     print s[:len(s)] + s[len(s):]
 
     ## %
     print "%d little pigs come out or I'll %s and %s and %s" % (3, 'huff', 'puff', 'blow down')
 
+    ## if then else elif
+    speed = 90
+    mood = 'bad'
+
+    if speed >= 80:
+        print 'License and registration please.'
+        if mood == 'terrible' or speed >= 100:
+            print 'You have the right to remain silent.'
+        elif mood == 'bad' or speed >= 90:
+            print "I'm going to have to write a ticket."
+            write_ticket()
+        else:
+            print "Let's try to keep it under 80 ok?"
+
+
     ## sys import test
     sys.exit(0)
 
+# write_ticket for if then else statement
+def write_ticket():
+    print 'Ticket :O'
 
 # defining function test
 def repeat(s, exclaim, times):

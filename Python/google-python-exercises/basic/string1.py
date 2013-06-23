@@ -24,8 +24,12 @@
 # So donuts(5) returns 'Number of donuts: 5'
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
-  # +++your code here+++
-  return
+  s = 'Number of donuts: '
+  if count >= 10:
+    result = s + 'many'
+  else:
+    result = s + str(count)
+  return result
 
 
 # B. both_ends
@@ -34,13 +38,16 @@ def donuts(count):
 # so 'spring' yields 'spng'. However, if the string length
 # is less than 2, return instead the empty string.
 def both_ends(s):
-  # +++your code here+++
-  return
+  if len(s) < 2:
+    result = ''
+  else:
+    result = s[0:2] + s[-2:]
+  return result
 
 
 # C. fix_start
 # Given a string s, return a string
-# where all occurences of its first char have
+# where all occurences of its first char have²
 # been changed to '*', except do not change
 # the first char itself.
 # e.g. 'babble' yields 'ba**le'
@@ -48,7 +55,9 @@ def both_ends(s):
 # Hint: s.replace(stra, strb) returns a version of string s
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
-  # +++your code here+++
+  if len(s) >= 1:
+    temp = s[1:].replace(s[0], '*')
+    return s[0] + temp
   return
 
 
@@ -91,7 +100,6 @@ def main():
   test(both_ends('a'), '')
   test(both_ends('xyz'), 'xyyz')
 
-  
   print
   print 'fix_start'
   test(fix_start('babble'), 'ba**le')
