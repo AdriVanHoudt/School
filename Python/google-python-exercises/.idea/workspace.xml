@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="79b24698-7fdc-433c-8388-3792adec2f46" name="Default" comment="test commit">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.py" afterPath="$PROJECT_DIR$/hello.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/string1.py" afterPath="$PROJECT_DIR$/basic/string1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="google-python-exercises.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Python Console" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1370795746421" ignored="false" />
-    <file path="/Dummy.txt" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1371987247245" ignored="false" />
+    <file path="/Dummy.txt" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372068347953" ignored="false" />
     <file path="/hello.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1371987803047" ignored="false" />
     <file path="/a.html" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1370955007600" ignored="false" />
     <file path="/a.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1371988184268" ignored="false" />
@@ -40,10 +39,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="string1.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="string1.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/basic/string1.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="65" column="41" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.56276447">
+                <state line="54" column="59" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.01923077">
                   <folding />
                 </state>
               </provider>
@@ -53,10 +52,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="hello.py" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="hello.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hello.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="0" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.33286318">
+                <state line="87" column="2" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.6414027">
                   <folding />
                 </state>
               </provider>
@@ -88,8 +87,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/basic/string1.py" />
+        <option value="$PROJECT_DIR$/hello.py" />
       </list>
     </option>
   </component>
@@ -208,7 +207,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,18 +241,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Python" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -287,6 +286,23 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="google-python-exercises" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="docs" factoryName="Docutils task">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,23 +321,6 @@
       <option name="docutils_open_in_browser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="google-python-exercises" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="docs" factoryName="Sphinx task">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,19 +337,6 @@
       <option name="docutils_params" value="" />
       <option name="docutils_task" value="" />
       <option name="docutils_open_in_browser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
-      <module name="" />
-      <option name="PORT" value="0" />
-      <option name="HOST" value="null" />
-      <PathMappingSettings>
-        <option name="pathMappings">
-          <list />
-        </option>
-      </PathMappingSettings>
-      <option name="REDIRECT_OUTPUT" value="true" />
-      <option name="SUSPEND_AFTER_CONNECT" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -374,6 +360,19 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -426,8 +425,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.hello" />
-      <item index="1" class="java.lang.String" itemvalue="Python.string1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.string1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.hello" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -502,11 +501,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.086979724" sideWeight="0.8028634" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.112059765" sideWeight="0.8076923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.113127" sideWeight="0.8076923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24559471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10565635" sideWeight="0.30837005" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1923077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1923077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -582,6 +581,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/basic/string1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="59" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -629,14 +642,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.33286318">
+        <state line="87" column="2" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.6414027">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/string1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="41" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.56276447">
+        <state line="54" column="59" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.01923077">
           <folding />
         </state>
       </provider>
