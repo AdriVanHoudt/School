@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b24698-7fdc-433c-8388-3792adec2f46" name="Default" comment="test commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.py" afterPath="$PROJECT_DIR$/hello.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/string1.py" afterPath="$PROJECT_DIR$/basic/string1.py" />
     </list>
     <ignored path="google-python-exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,7 +11,7 @@
     <file path="/hello.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1371987803047" ignored="false" />
     <file path="/a.html" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1370955007600" ignored="false" />
     <file path="/a.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1371988184268" ignored="false" />
-    <file path="/string1.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1371989190083" ignored="false" />
+    <file path="/string1.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372068904778" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +38,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="string1.py" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="string1.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/basic/string1.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="54" column="59" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.01923077">
+                <state line="70" column="17" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.42877293">
                   <folding />
                 </state>
               </provider>
@@ -52,10 +51,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="hello.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="hello.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hello.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="87" column="2" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.6414027">
+                <state line="87" column="2" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.7997179">
                   <folding />
                 </state>
               </provider>
@@ -87,8 +86,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/basic/string1.py" />
         <option value="$PROJECT_DIR$/hello.py" />
+        <option value="$PROJECT_DIR$/basic/string1.py" />
       </list>
     </option>
   </component>
@@ -505,7 +504,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24559471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10565635" sideWeight="0.30837005" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1923077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1923077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -642,14 +641,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="2" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.6414027">
+        <state line="87" column="2" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.7997179">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/string1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="59" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.01923077">
+        <state line="70" column="17" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.42877293">
           <folding />
         </state>
       </provider>

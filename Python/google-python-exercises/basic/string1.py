@@ -47,7 +47,7 @@ def both_ends(s):
 
 # C. fix_start
 # Given a string s, return a string
-# where all occurences of its first char have²
+# where all occurences of its first char have
 # been changed to '*', except do not change
 # the first char itself.
 # e.g. 'babble' yields 'ba**le'
@@ -69,8 +69,9 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
-  # +++your code here+++
-  return
+  aMod = b[0:2] + a[2:]
+  bMod = a[0:2] + b[2:]
+  return aMod + ' ' + bMod
 
 
 # Provided simple test() function used in main() to print
