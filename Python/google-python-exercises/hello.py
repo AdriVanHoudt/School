@@ -19,6 +19,7 @@ and run Python code; now you just need to learn Python!
 
 import sys
 
+
 # Define a main() function that prints a little greeting.
 def main():
   ## Get the name from the command line, using 'World' as a fallback.
@@ -30,6 +31,40 @@ def main():
 
   print repeat('Adri', True, 3)
 
+  string_test()
+  list_test()
+
+  ## sys import test
+  sys.exit(0)
+
+
+def list_test():
+  colors = ['red', 'green', 'blue']
+  print colors[0]
+  print colors[2]
+  print len(colors)
+
+  b = colors  # by reference, b points to same position in memory as colors!!
+  b += ['yellow', 'orange']
+  print colors[3]  # yellow
+
+  numbers = [1, 4, 9, 16]
+  sum = 0
+  for num in numbers:
+    sum += num
+  print sum
+
+  if 9 in numbers:
+    print 'yay'
+
+  for ch in b[3]:
+    print ch
+
+  for i in range(len(numbers)):
+    print i
+
+
+def string_test():
   ## string test
   s = 'hi'
   print s[1]
@@ -81,12 +116,10 @@ def main():
       print "Let's try to keep it under 80 ok?"
 
 
-  ## sys import test
-  sys.exit(0)
-
 # write_ticket for if then else statement
 def write_ticket():
   print 'Ticket :O'
+
 
 # defining function test
 def repeat(s, exclaim, times):
