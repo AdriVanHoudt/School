@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79b24698-7fdc-433c-8388-3792adec2f46" name="Default" comment="test commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.py" afterPath="$PROJECT_DIR$/hello.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/list1.py" afterPath="$PROJECT_DIR$/basic/list1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="google-python-exercises.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Python Console" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1370795746421" ignored="false" />
-    <file path="/Dummy.txt" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372068347953" ignored="false" />
-    <file path="/hello.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372073362210" ignored="false" />
+    <file path="/Dummy.txt" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372330749650" ignored="false" />
+    <file path="/hello.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372338288075" ignored="false" />
     <file path="/a.html" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1370955007600" ignored="false" />
-    <file path="/a.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1371988184268" ignored="false" />
+    <file path="/a.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372333594252" ignored="false" />
     <file path="/string1.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372068904778" ignored="false" />
+    <file path="/list1.py" changelist="79b24698-7fdc-433c-8388-3792adec2f46" time="1372333383917" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +43,9 @@
       <file leaf-file-name="hello.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="17" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.16617647">
+            <state line="35" column="13" selection-start="945" selection-end="945" vertical-scroll-proportion="0.32053176">
               <folding>
-                <element signature="e#2692#2761#0" expanded="false" />
+                <element signature="e#3080#3149#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,13 +76,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/basic/string1.py" />
+        <option value="$PROJECT_DIR$/basic/list1.py" />
         <option value="$PROJECT_DIR$/hello.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="960" />
-    <option name="width" value="949" />
+    <option name="width" value="960" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -258,10 +262,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="PluginDummyText.Genre" value="scifi" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Python" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/workspace.xml" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
@@ -296,6 +301,27 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/string1.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="list1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="google-python-exercises" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/list1.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -437,13 +463,15 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.hello" />
       <item index="1" class="java.lang.String" itemvalue="Python.string1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.list1" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.string1" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.list1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.string1" />
       </list>
     </recent_temporary>
   </component>
@@ -507,23 +535,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="949" height="1050" extended-state="0" />
-    <editor active="false" />
+    <frame x="960" y="0" width="960" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21475771" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.086979724" sideWeight="0.8028634" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23900789" sideWeight="0.80425054" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24496645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18596882" sideWeight="0.80089486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24395604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10565635" sideWeight="0.30837005" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19574945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19910514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -592,22 +623,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/string1.py">
+    <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="59" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3080#3149#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="42" column="17" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2692#2761#0" expanded="false" />
+            <element signature="e#3080#3149#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -616,7 +649,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2692#2761#0" expanded="false" />
+            <element signature="e#3080#3149#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/string1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="59" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3080#3149#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3080#3149#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,7 +681,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="19" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2692#2761#0" expanded="false" />
+            <element signature="e#3080#3149#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -634,7 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2692#2761#0" expanded="false" />
+            <element signature="e#3080#3149#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,7 +699,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="50" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2692#2761#0" expanded="false" />
+            <element signature="e#3080#3149#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -652,7 +708,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2692#2761#0" expanded="false" />
+            <element signature="e#3080#3149#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -667,25 +723,30 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic/solution/string1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="23" selection-start="740" selection-end="740" vertical-scroll-proportion="-1.4227995" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic/string1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="17" selection-start="2213" selection-end="2213" vertical-scroll-proportion="0.42877293">
+        <state line="66" column="6" selection-start="2091" selection-end="2091" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/solution/string1.py">
+    <entry file="file://$PROJECT_DIR$/basic/list1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="740" selection-end="740" vertical-scroll-proportion="-1.4227995">
+        <state line="29" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="17" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.16617647">
+        <state line="35" column="13" selection-start="945" selection-end="945" vertical-scroll-proportion="0.32053176">
           <folding>
-            <element signature="e#2692#2761#0" expanded="false" />
+            <element signature="e#3080#3149#0" expanded="false" />
           </folding>
         </state>
       </provider>

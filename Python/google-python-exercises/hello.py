@@ -33,9 +33,20 @@ def main():
 
   string_test()
   list_test()
+  sort_test()
 
   ## sys import test
   sys.exit(0)
+
+
+def sort_test():
+  a = [5, 1, 4, 9, 6, 3, 7, 8]
+  print sorted(a)
+  print a
+
+  strings = ['aaa', 'bbb', 'CCC', 'zzz', 'XXX']
+  print sorted(strings)
+  print sorted(strings, reverse=True)
 
 
 def list_test():
@@ -49,10 +60,10 @@ def list_test():
   print colors[3]  # yellow
 
   numbers = [1, 4, 9, 16]
-  sum = 0
+  Numbers = 0
   for num in numbers:
-    sum += num
-  print sum
+    Numbers += num
+  print Numbers
 
   if 9 in numbers:
     print 'yay'
@@ -62,6 +73,11 @@ def list_test():
 
   for i in range(len(numbers)):
     print i
+
+  list1 = ['test1', 'pom', 'Imbers velum in vasa!']
+  list2 = ['Solem de alter gemna, gratia amicitia!', 'Naviss favere in burdigala!']
+  list1.extend(list2)
+  print list1
 
 
 def string_test():
