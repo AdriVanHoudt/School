@@ -44,9 +44,33 @@ def sort_test():
   print sorted(a)
   print a
 
-  strings = ['aaa', 'bbb', 'CCC', 'zzz', 'XXX']
+  strings = ['aaa', 'bb', 'CCC', 'zzz', 'XXXV', 'AaZ']
   print sorted(strings)
   print sorted(strings, reverse=True)
+  print sorted(strings, key=str.lower)
+  print sorted(strings, key=len)
+  print sorted(strings, key=len, reverse=True)
+  strs = ['xC', 'zb', 'ta', 'bd']
+  print sorted(strs, key=keyFn)
+
+  ## tuples
+  tuple = (5, 10, 'Hello World')
+  print len(tuple)
+  print tuple[2]
+  # gives error
+  # tuple[2] = 'Howdy World'
+  # works
+  tuple = (5, 10, 'Howdy World')
+  print tuple[2]
+
+  ## comprehensions
+  numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  print [n * n for n in numbers]
+  print [s.upper() + '!!!' for s in strings]
+
+
+def keyFn(s):
+  return s[-1].lower()
 
 
 def list_test():
