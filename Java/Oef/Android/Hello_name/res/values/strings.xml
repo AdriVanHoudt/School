@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Hello_Name</string>
-    <string name="name_hint">Tik je naam in</string>
-    <string name="button_label">Enter</string>
-</resources>

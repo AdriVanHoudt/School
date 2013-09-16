@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Hello_World_V2</string>
-    <string name="Hello">Hello World!</string>
-    <string name="welcome">Welcome to Android</string>
-    <string name="alt">Android logo</string>
-</resources>

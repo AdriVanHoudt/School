@@ -1,5 +1,0 @@
-_assetic:
-    resource: .
-    type: assetic
-_app:
-    resource: 'C:/Users/adri/Documents/GitHub/PHP/Test/app/config/routing_dev.yml'

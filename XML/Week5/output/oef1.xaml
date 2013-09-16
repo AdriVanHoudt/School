@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-   <Canvas.Background>
-      <LinearGradientBrush>
-         <GradientStop Color="Red"/>
-         <GradientStop Color="Ivory" Offset="1"/>
-      </LinearGradientBrush>
-   </Canvas.Background>
-</Canvas>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">LifeCycle</string>
-    <string name="lange_tekst">Wait 10 seconds and see the screen shows how methods are executed. After 10 seconds click
-        on the back button on the emulator to see what methods are executed
-    </string>
-    <string name="status">Status</string>
-</resources>
