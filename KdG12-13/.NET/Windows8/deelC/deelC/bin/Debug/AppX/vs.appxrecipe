@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HOUSTON</Machine>
+    <WindowsUser>adri</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>57AFA7D54D71B15772309CB421C91814008C68BF2D6823E2027C8E47A95BAE5F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>da41bb25-fb7c-4e59-9955-03927d4a44c6_1.0.0.0_neutral__ecjxjrbw9yeyj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>da41bb25-fb7c-4e59-9955-03927d4a44c6_ecjxjrbw9yeyj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>da41bb25-fb7c-4e59-9955-03927d4a44c6</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Adri</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-14T19:06:44.408</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\bin\Debug\deelC.exe">
+      <PackagePath>deelC.exe</PackagePath>
+      <Modified>2013-03-14T19:06:43.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\bin\Debug\deelC.pdb">
+      <PackagePath>deelC.pdb</PackagePath>
+      <Modified>2013-03-14T19:06:43.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-11T17:10:03.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-11T17:10:03.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-11T17:10:03.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-11T17:10:03.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-03-11T17:10:03.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-03-11T17:10:03.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-03-11T17:10:03.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-03-11T17:10:03.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adri\Documents\GitHub\.NET\Windows8\deelC\deelC\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-14T19:06:43.642</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

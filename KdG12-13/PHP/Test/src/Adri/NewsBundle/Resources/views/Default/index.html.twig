@@ -1,0 +1,11 @@
+{% for article in articles %}
+    <div class="news_post">
+        <div class="news_header">{{ article.title }}</div>
+        <div class="news_content">
+            {{ article.content }}
+        </div>
+        <div class="news_footer">{{ article.postedBy }} on {{ article.dateAdded|date("d/m/Y") }}</div>
+    </div>
+{% else %}
+    <div class="error error-alert">No Articles found</div>
+{% endfor %}

@@ -1,0 +1,12 @@
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\bin\Debug\CalculateBTW.dll
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\bin\Debug\CalculateBTW.pdb
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\bin\Debug\CalculateBTW.dll.manifest
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\bin\Debug\CalculateBTW.vsto
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\obj\Debug\CalculateBTW.csprojResolveAssemblyReference.cache
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\obj\Debug\Test.Ribbon1.resources
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\obj\Debug\CalculateBTW.csproj.GenerateResource.Cache
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\obj\Debug\CalculateBTW.dll
+C:\Users\adri\Documents\GitHub\.NET\Projects\Office\CalculateBTW\Test\obj\Debug\CalculateBTW.pdb

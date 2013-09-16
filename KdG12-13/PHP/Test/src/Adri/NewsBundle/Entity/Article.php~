@@ -1,0 +1,39 @@
+<?php
+
+namespace Adri\NewsBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Table(name="`article`")
+ * @ORM\Entity
+ */
+class Article
+{
+    /**
+     * @ORM\Column(type="integer", name="id")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @ORM\Column(type="string", name="title", length=255)
+     */
+    private $title;
+
+    /**
+     * @ORM\Column(type="text", name="content")
+     */
+    private $content;
+
+    /**
+     * @ORM\Column(type="string", name="postedBy", length=255)
+     */
+    private $postedBy;
+
+    /**
+     * @ORM\Column(type="datetime", name="dateAdded")
+     */
+    private $dateAdded;
+}

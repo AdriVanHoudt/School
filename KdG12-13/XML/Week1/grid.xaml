@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="400" Height="300">
+	<Grid>
+		<Grid.Resources>
+			<Style x:Key="TitleText" TargetType="{x:Type TextBlock}">
+				<Setter Property="FontFamily" Value="Segoe Black"/>
+				<Setter Property="FontSize" Value="24px"/>
+				<Setter Property="Foreground" Value="MidnightBlue"/>
+				<Setter Property="TextAlignment" Value="Center"/>
+				<Setter Property="VerticalAlignment" Value="Center"/>
+			</Style>
+			<Style x:Key="DataText" TargetType="{x:Type TextBlock}">
+				<Setter Property="FontFamily" Value="Segoe Black"/>
+				<Setter Property="FontSize" Value="14px"/>
+				<Setter Property="Foreground" Value="Ivory"/>
+				<Setter Property="TextAlignment" Value="Center"/>
+				<Setter Property="VerticalAlignment" Value="Center"/>
+				<Setter Property="Background" Value="#FF3B596E"/>
+			</Style>
+		</Grid.Resources>
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FF93C5E8"/>
+				<GradientStop Color="#FF3B596E" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.3*"/>
+			<ColumnDefinition Width="0.2*"/>
+			<ColumnDefinition Width="0.2*"/>
+			<ColumnDefinition Width="0.2*"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="50"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+		</Grid.RowDefinitions>
+		<TextBlock Grid.Column="0" Grid.Row="0" Style="{StaticResource TitleText}">
+								Date		
+							</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="0" Style="{StaticResource TitleText}">							
+								Value
+							</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="0" Style="{StaticResource TitleText}">															
+								Actual Value	
+							</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="0" Style="{StaticResource TitleText}">																				
+								Target
+							</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="1" Style="{StaticResource DataText}">2/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="1" Style="{StaticResource DataText}">6.83</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="1" Style="{StaticResource DataText}">40</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="1" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource DataText}">3/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="2" Style="{StaticResource DataText}">6.53</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="2" Style="{StaticResource DataText}">41</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="2" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="3" Style="{StaticResource DataText}">5/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="3" Style="{StaticResource DataText}">6.66</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="3" Style="{StaticResource DataText}">42</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="3" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="4" Style="{StaticResource DataText}">6/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="4" Style="{StaticResource DataText}">5.83</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="4" Style="{StaticResource DataText}">43</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="4" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="5" Style="{StaticResource DataText}">16/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="5" Style="{StaticResource DataText}">4.83</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="5" Style="{StaticResource DataText}">44</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="5" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="6" Style="{StaticResource DataText}">17/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="6" Style="{StaticResource DataText}">7.05</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="6" Style="{StaticResource DataText}">45</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="6" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="7" Style="{StaticResource DataText}">18/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="7" Style="{StaticResource DataText}">6.33</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="7" Style="{StaticResource DataText}">46</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="7" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="8" Style="{StaticResource DataText}">20/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="8" Style="{StaticResource DataText}">5.04</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="8" Style="{StaticResource DataText}">47</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="8" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="9" Style="{StaticResource DataText}">22/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="9" Style="{StaticResource DataText}">5.15</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="9" Style="{StaticResource DataText}">48</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="9" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="10" Style="{StaticResource DataText}">23/2/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="10" Style="{StaticResource DataText}">4.45</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="10" Style="{StaticResource DataText}">49</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="10" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="11" Style="{StaticResource DataText}">24/6/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="11" Style="{StaticResource DataText}">1.04</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="11" Style="{StaticResource DataText}">50</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="11" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="12" Style="{StaticResource DataText}">3/3/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="12" Style="{StaticResource DataText}">6.77</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="12" Style="{StaticResource DataText}">51</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="12" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="13" Style="{StaticResource DataText}">4/3/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="13" Style="{StaticResource DataText}">3.79</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="13" Style="{StaticResource DataText}">52</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="13" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="14" Style="{StaticResource DataText}">5/3/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="14" Style="{StaticResource DataText}">4.65</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="14" Style="{StaticResource DataText}">53</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="14" Style="{StaticResource DataText}">80</TextBlock>
+		<TextBlock Grid.Column="0" Grid.Row="15" Style="{StaticResource DataText}">6/3/6</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="15" Style="{StaticResource DataText}">5.82</TextBlock>
+		<TextBlock Grid.Column="2" Grid.Row="15" Style="{StaticResource DataText}">54</TextBlock>
+		<TextBlock Grid.Column="3" Grid.Row="15" Style="{StaticResource DataText}">80</TextBlock>
+	</Grid>
+</UserControl>

@@ -1,0 +1,30 @@
+article:
+    pattern:  /
+    defaults: { _controller: "AdriNewsBundle:Article:index" }
+
+article_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "AdriNewsBundle:Article:show" }
+
+article_new:
+    pattern:  /new
+    defaults: { _controller: "AdriNewsBundle:Article:new" }
+
+article_create:
+    pattern:  /create
+    defaults: { _controller: "AdriNewsBundle:Article:create" }
+    requirements: { _method: post }
+
+article_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "AdriNewsBundle:Article:edit" }
+
+article_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "AdriNewsBundle:Article:update" }
+    requirements: { _method: post|put }
+
+article_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "AdriNewsBundle:Article:delete" }
+    requirements: { _method: post|delete }

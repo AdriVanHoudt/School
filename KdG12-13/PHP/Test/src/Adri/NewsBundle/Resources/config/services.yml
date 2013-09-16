@@ -1,0 +1,7 @@
+parameters:
+#    adri_news.example.class: Adri\NewsBundle\Example
+
+services:
+#    adri_news.example:
+#        class: %adri_news.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

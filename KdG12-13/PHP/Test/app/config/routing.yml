@@ -1,0 +1,4 @@
+adri_news:
+    resource: "@AdriNewsBundle/Resources/config/routing/article.yml"
+    prefix:   /article
+

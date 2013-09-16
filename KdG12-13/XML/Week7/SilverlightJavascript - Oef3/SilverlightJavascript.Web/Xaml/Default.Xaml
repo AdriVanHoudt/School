@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    ShowGridLines="true"
+    Loaded="onLoaded">
+
+    <Grid.Background>
+        <LinearGradientBrush>
+            <GradientStop Color="DarkSlateGray"/>
+            <GradientStop Color="Ivory" Offset="1"/>
+        </LinearGradientBrush>
+    </Grid.Background>
+
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="20*"/>
+        <ColumnDefinition Width="60*"/>
+        <ColumnDefinition Width="20*"/>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="10*"/>
+        <RowDefinition Height="90*"/>
+    </Grid.RowDefinitions>
+    <Border Cursor="Hand" Width="100"  Background="Maroon" BorderBrush="Red"  Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" BorderThickness="1">
+        <TextBlock Foreground="White"  Text="Test" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+    </Border>
+    <Ellipse x:Name="ellipse1" Visibility="visible" Width="100"  Height="100"  Fill="Red"  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Ellipse>
+    <Rectangle x:Name="rectangle1" Visibility="collapsed" Width="100"  Height="100"  Fill="Blue"  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Rectangle>
+   </Grid>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Boodschappen</string>
+    <string name="eerste">Vlees</string>
+    <string name="tweede">Brood</string>
+    <string name="derde">Melk</string>
+    <string name="samen">Test</string>
+    <string name="hint">0.00</string>
+    <string name="prijs">Te betalen: €</string>
+    <string name="V">Vlees</string>
+    <string name="B">Brood</string>
+    <string name="M">Melk</string>
+    <string name="tb">Te Betalen: €</string>
+    <string name="Totaal">0.00</string>
+</resources>
