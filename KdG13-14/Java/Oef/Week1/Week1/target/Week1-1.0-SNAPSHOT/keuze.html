@@ -4,11 +4,37 @@ and open the template in the editor.
 -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  </head>
-  <body>
-      <div>TODO write content</div>
-  </body>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Voorkeur specialisatie</h1>
+        <form action="/">
+            <table border="1">
+                <tr>
+                    <td><label>Naam</label></td>
+                    <td><input type="text" /></td>
+                </tr>
+                <tr>
+                    <td><label>Jaar</label></td>
+                    <td>
+                        <input type="radio" name="jaar" />Eerste jaar   <br/>
+                        <input type="radio" name="jaar" />Tweede jaar   <br/>
+                        <input type="radio" name="jaar" />Derde jaar    <br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Specialisatie</label></td>
+                    <td>
+                        <input type="radio" name="spec"/>Applicatieontwikkeling <br/>
+                        <input type="radio" name="spec"/>SE & SM    <br/>
+                        <input type="radio" name="spec"/>Multimedia <br/>
+                        <input type="radio" name="spec"/>Datacom    <br/>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit"/>
+        </form>
+    </body>
 </html>
