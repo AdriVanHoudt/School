@@ -17,10 +17,10 @@ public class ProductDatabase
     private final List<Product> producten = new ArrayList<Product>();
     
     //ThreadSafe
-    //public synchronized void addProduct(Product p)
+    public synchronized void addProduct(Product p)
     
     //Not ThreadSafe
-    public void addProduct(Product p)
+    //public void addProduct(Product p)
     {
         producten.add(p);
     }
