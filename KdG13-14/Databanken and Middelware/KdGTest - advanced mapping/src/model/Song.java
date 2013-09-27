@@ -2,10 +2,14 @@ package model;
 
 import com.sun.xml.internal.bind.v2.model.core.ID;
 import org.hibernate.annotations.*;
+import org.hibernate.annotations.CascadeType;
 
 import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * User: Adri
@@ -21,6 +25,10 @@ public class Song {
     private Integer id;
     private String title;
     private Integer length;
+
+    @ManyToMany(mappedBy = "songs")
+    @Cascade(CascadeType.SAVE_UPDATE)
+    private Set<Playlist> playlists = new HashSet<>();
 
     @ManyToOne
     @Cascade({org.hibernate.annotations.CascadeType.SAVE_UPDATE})
@@ -71,5 +79,18 @@ public class Song {
         this.artist = artist;
         this.length = duration;
         this.title = title;
+    }
+
+
+    public Set<Playlist> getPlaylists() {
+        return playlists;
+    }
+
+    public void setPlaylists(Set<Playlist> playlists) {
+        this.playlists = playlists;
+    }
+
+    public void addPlaylist(Playlist playlist) {
+        this.playlists.add(playlist);
     }
 }

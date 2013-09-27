@@ -6,6 +6,7 @@
 
 import model.Album;
 import model.Artist;
+import model.Playlist;
 import model.Song;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -34,9 +35,15 @@ public class Main {
         al1.addSong(s2);
         al1.addSong(s3);
 
+        Playlist pl1 = new Playlist("Top 3");
+        pl1.addSong(s1);
+        pl1.addSong(s3);
+        pl1.addSong(s2);
+
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         Transaction tx = session.beginTransaction();
         session.saveOrUpdate(al1);
+        session.saveOrUpdate(pl1);
         tx.commit();
     }
 

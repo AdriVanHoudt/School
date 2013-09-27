@@ -742,6 +742,19 @@
       <primary-key name="PRIMARY" columns="id"/>
       <exported-key name="FK_5cn57k8mj32cox4vmcj8hecy2" table="t_song" schema="" catalog="kdgtest" columns="artistId"/>
     </table>
+    <table name="t_playlist" schema="" catalog="kdgtest" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="FK_5mbsfhw5kpojqx2tsqffx4cv9" table="t_playlist_song" schema="" catalog="kdgtest" columns="playlistId"/>
+    </table>
+    <table name="t_playlist_song" schema="" catalog="kdgtest" type="TABLE">
+      <column name="playlistId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="songId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="playlistId,songId"/>
+      <foreign-key name="FK_5mbsfhw5kpojqx2tsqffx4cv9" columns="playlistId" ref-table="t_playlist" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_lij5xnrvo33ksvdrjw9sdwce7" columns="songId" ref-table="t_song" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
     <table name="t_song" schema="" catalog="kdgtest" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="length" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
@@ -751,6 +764,7 @@
       <primary-key name="PRIMARY" columns="id"/>
       <foreign-key name="FK_kh8p874yanxrk4kag0ukuuukn" columns="albumId" ref-table="t_album" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK_5cn57k8mj32cox4vmcj8hecy2" columns="artistId" ref-table="t_artist" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FK_lij5xnrvo33ksvdrjw9sdwce7" table="t_playlist_song" schema="" catalog="kdgtest" columns="songId"/>
     </table>
     <table name="columns_priv" schema="" catalog="mysql" type="TABLE">
       <column name="Host" sqlType="CHAR" length="60" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
@@ -821,7 +835,7 @@
       <primary-key name="PRIMARY" columns="name"/>
     </table>
     <table name="general_log" schema="" catalog="mysql" type="TABLE">
-      <column name="event_time" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="event_time" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
       <column name="user_host" sqlType="MEDIUMTEXT" length="16777215" precision="0" nullable="false" jdbcType="-1"/>
       <column name="thread_id" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="false" jdbcType="-5"/>
       <column name="server_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
@@ -833,14 +847,19 @@
       <column name="name" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1"/>
       <column name="parent_category_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="true" jdbcType="5"/>
       <column name="url" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="help_category_id"/>
+      <index name="name" unique="true" columns="name"/>
     </table>
     <table name="help_keyword" schema="" catalog="mysql" type="TABLE">
       <column name="help_keyword_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="name" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="help_keyword_id"/>
+      <index name="name" unique="true" columns="name"/>
     </table>
     <table name="help_relation" schema="" catalog="mysql" type="TABLE">
       <column name="help_topic_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="help_keyword_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="help_keyword_id,help_topic_id"/>
     </table>
     <table name="help_topic" schema="" catalog="mysql" type="TABLE">
       <column name="help_topic_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
@@ -849,24 +868,28 @@
       <column name="description" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
       <column name="example" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
       <column name="url" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="help_topic_id"/>
+      <index name="name" unique="true" columns="name"/>
     </table>
     <table name="innodb_index_stats" schema="" catalog="mysql" type="TABLE">
       <column name="database_name" sqlType="VARCHAR" length="64" precision="0" nullable="false" jdbcType="12"/>
       <column name="table_name" sqlType="VARCHAR" length="64" precision="0" nullable="false" jdbcType="12"/>
       <column name="index_name" sqlType="VARCHAR" length="64" precision="0" nullable="false" jdbcType="12"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
       <column name="stat_name" sqlType="VARCHAR" length="64" precision="0" nullable="false" jdbcType="12"/>
       <column name="stat_value" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="false" jdbcType="-5"/>
       <column name="sample_size" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="true" jdbcType="-5"/>
       <column name="stat_description" sqlType="VARCHAR" length="1024" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="database_name,table_name,index_name,stat_name"/>
     </table>
     <table name="innodb_table_stats" schema="" catalog="mysql" type="TABLE">
       <column name="database_name" sqlType="VARCHAR" length="64" precision="0" nullable="false" jdbcType="12"/>
       <column name="table_name" sqlType="VARCHAR" length="64" precision="0" nullable="false" jdbcType="12"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
       <column name="n_rows" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="false" jdbcType="-5"/>
       <column name="clustered_index_size" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="false" jdbcType="-5"/>
       <column name="sum_of_other_index_sizes" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="false" jdbcType="-5"/>
+      <primary-key name="PRIMARY" columns="database_name,table_name"/>
     </table>
     <table name="ndb_binlog_index" schema="" catalog="mysql" type="TABLE">
       <column name="Position" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="false" jdbcType="-5"/>
@@ -879,10 +902,12 @@
       <column name="orig_server_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="orig_epoch" sqlType="BIGINT UNSIGNED" length="20" precision="0" nullable="false" jdbcType="-5"/>
       <column name="gci" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="epoch,orig_server_id,orig_epoch"/>
     </table>
     <table name="plugin" schema="" catalog="mysql" type="TABLE">
       <column name="name" sqlType="VARCHAR" length="64" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
       <column name="dl" sqlType="VARCHAR" length="128" precision="0" nullable="false" jdbcType="12" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="name"/>
     </table>
     <table name="proc" schema="" catalog="mysql" type="TABLE">
       <column name="db" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
@@ -897,7 +922,7 @@
       <column name="returns" sqlType="LONGBLOB" length="2147483647" precision="0" nullable="false" jdbcType="-4"/>
       <column name="body" sqlType="LONGBLOB" length="2147483647" precision="0" nullable="false" jdbcType="-4"/>
       <column name="definer" sqlType="CHAR" length="77" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
-      <column name="created" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="created" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
       <column name="modified" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
       <column name="sql_mode" sqlType="SET" length="478" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="comment" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
@@ -905,6 +930,7 @@
       <column name="collation_connection" sqlType="CHAR" length="32" precision="0" nullable="true" jdbcType="1"/>
       <column name="db_collation" sqlType="CHAR" length="32" precision="0" nullable="true" jdbcType="1"/>
       <column name="body_utf8" sqlType="LONGBLOB" length="2147483647" precision="0" nullable="true" jdbcType="-4"/>
+      <primary-key name="PRIMARY" columns="db,name,type"/>
     </table>
     <table name="procs_priv" schema="" catalog="mysql" type="TABLE">
       <column name="Host" sqlType="CHAR" length="60" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
@@ -914,7 +940,9 @@
       <column name="Routine_type" sqlType="ENUM" length="9" precision="0" nullable="false" jdbcType="1"/>
       <column name="Grantor" sqlType="CHAR" length="77" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="Proc_priv" sqlType="SET" length="27" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
-      <column name="Timestamp" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="Timestamp" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="Host,Db,User,Routine_name,Routine_type"/>
+      <index name="Grantor" unique="false" columns="Grantor"/>
     </table>
     <table name="proxies_priv" schema="" catalog="mysql" type="TABLE">
       <column name="Host" sqlType="CHAR" length="60" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
@@ -923,7 +951,9 @@
       <column name="Proxied_user" sqlType="CHAR" length="16" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="With_grant" sqlType="BIT" length="0" precision="0" nullable="false" jdbcType="-7" def="MA=="/>
       <column name="Grantor" sqlType="CHAR" length="77" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
-      <column name="Timestamp" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="Timestamp" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="Host,User,Proxied_host,Proxied_user"/>
+      <index name="Grantor" unique="false" columns="Grantor"/>
     </table>
     <table name="servers" schema="" catalog="mysql" type="TABLE">
       <column name="Server_name" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
@@ -935,6 +965,7 @@
       <column name="Socket" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="Wrapper" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="Owner" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="Server_name"/>
     </table>
     <table name="slave_master_info" schema="" catalog="mysql" type="TABLE">
       <column name="Number_of_lines" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="TnVtYmVyIG9mIGxpbmVzIGluIHRoZSBmaWxlLg=="/>
@@ -960,6 +991,7 @@
       <column name="Ssl_crl" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1" remarks="VGhlIGZpbGUgdXNlZCBmb3IgdGhlIENlcnRpZmljYXRlIFJldm9jYXRpb24gTGlzdCAoQ1JMKQ=="/>
       <column name="Ssl_crlpath" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1" remarks="VGhlIHBhdGggdXNlZCBmb3IgQ2VydGlmaWNhdGUgUmV2b2NhdGlvbiBMaXN0IChDUkwpIGZpbGVz"/>
       <column name="Enabled_auto_position" sqlType="BIT" length="0" precision="0" nullable="false" jdbcType="-7" remarks="SW5kaWNhdGVzIHdoZXRoZXIgR1RJRHMgd2lsbCBiZSB1c2VkIHRvIHJldHJpZXZlIGV2ZW50cyBmcm9tIHRoZSBtYXN0ZXIu"/>
+      <primary-key name="PRIMARY" columns="Host,Port"/>
     </table>
     <table name="slave_relay_log_info" schema="" catalog="mysql" type="TABLE">
       <column name="Number_of_lines" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="TnVtYmVyIG9mIGxpbmVzIGluIHRoZSBmaWxlIG9yIHJvd3MgaW4gdGhlIHRhYmxlLiBVc2VkIHRvIHZlcnNpb24gdGFibGUgZGVmaW5pdGlvbnMu"/>
@@ -970,6 +1002,7 @@
       <column name="Sql_delay" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" remarks="VGhlIG51bWJlciBvZiBzZWNvbmRzIHRoYXQgdGhlIHNsYXZlIG11c3QgbGFnIGJlaGluZCB0aGUgbWFzdGVyLg=="/>
       <column name="Number_of_workers" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" remarks="SW50ZXJuYWwgSWQgdGhhdCB1bmlxdWVseSBpZGVudGlmaWVzIHRoaXMgcmVjb3JkLg=="/>
+      <primary-key name="PRIMARY" columns="Id"/>
     </table>
     <table name="slave_worker_info" schema="" catalog="mysql" type="TABLE">
       <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
@@ -984,9 +1017,10 @@
       <column name="Checkpoint_seqno" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="Checkpoint_group_size" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="Checkpoint_group_bitmap" sqlType="BLOB" length="65535" precision="0" nullable="false" jdbcType="-4"/>
+      <primary-key name="PRIMARY" columns="Id"/>
     </table>
     <table name="slow_log" schema="" catalog="mysql" type="TABLE">
-      <column name="start_time" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="start_time" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
       <column name="user_host" sqlType="MEDIUMTEXT" length="16777215" precision="0" nullable="false" jdbcType="-1"/>
       <column name="query_time" sqlType="TIME" length="8" precision="0" nullable="false" jdbcType="92"/>
       <column name="lock_time" sqlType="TIME" length="8" precision="0" nullable="false" jdbcType="92"/>
@@ -1005,26 +1039,32 @@
       <column name="User" sqlType="CHAR" length="16" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="Table_name" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="Grantor" sqlType="CHAR" length="77" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
-      <column name="Timestamp" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="Timestamp" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
       <column name="Table_priv" sqlType="SET" length="98" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="Column_priv" sqlType="SET" length="31" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="Host,Db,User,Table_name"/>
+      <index name="Grantor" unique="false" columns="Grantor"/>
     </table>
     <table name="time_zone" schema="" catalog="mysql" type="TABLE">
       <column name="Time_zone_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="Use_leap_seconds" sqlType="ENUM" length="2" precision="0" nullable="false" jdbcType="1" def="J04n"/>
+      <primary-key name="PRIMARY" columns="Time_zone_id"/>
     </table>
     <table name="time_zone_leap_second" schema="" catalog="mysql" type="TABLE">
       <column name="Transition_time" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
       <column name="Correction" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="Transition_time"/>
     </table>
     <table name="time_zone_name" schema="" catalog="mysql" type="TABLE">
       <column name="Name" sqlType="CHAR" length="64" precision="0" nullable="false" jdbcType="1"/>
       <column name="Time_zone_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="Name"/>
     </table>
     <table name="time_zone_transition" schema="" catalog="mysql" type="TABLE">
       <column name="Time_zone_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="Transition_time" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5"/>
       <column name="Transition_type_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="Time_zone_id,Transition_time"/>
     </table>
     <table name="time_zone_transition_type" schema="" catalog="mysql" type="TABLE">
       <column name="Time_zone_id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
@@ -1032,6 +1072,7 @@
       <column name="Offset" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
       <column name="Is_DST" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" def="MA=="/>
       <column name="Abbreviation" sqlType="CHAR" length="8" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="Time_zone_id,Transition_type_id"/>
     </table>
     <table name="user" schema="" catalog="mysql" type="TABLE">
       <column name="Host" sqlType="CHAR" length="60" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
@@ -1077,6 +1118,7 @@
       <column name="plugin" sqlType="CHAR" length="64" precision="0" nullable="true" jdbcType="1" def="Jyc="/>
       <column name="authentication_string" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
       <column name="password_expired" sqlType="ENUM" length="2" precision="0" nullable="false" jdbcType="1" def="J04n"/>
+      <primary-key name="PRIMARY" columns="Host,User"/>
     </table>
     <table name="accounts" schema="" catalog="performance_schema" type="TABLE">
       <column name="USER" sqlType="CHAR" length="16" precision="0" nullable="true" jdbcType="1"/>
@@ -1981,7 +2023,10 @@
       <column name="actor_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" autoIncrement="true"/>
       <column name="first_name" sqlType="VARCHAR" length="45" precision="0" nullable="false" jdbcType="12"/>
       <column name="last_name" sqlType="VARCHAR" length="45" precision="0" nullable="false" jdbcType="12"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="actor_id"/>
+      <exported-key name="fk_film_actor_actor" table="film_actor" schema="" catalog="sakila" columns="actor_id"/>
+      <index name="idx_actor_last_name" unique="false" columns="last_name"/>
     </table>
     <table name="actor_info" schema="" catalog="sakila" type="VIEW">
       <column name="actor_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" def="MA=="/>
@@ -1997,23 +2042,37 @@
       <column name="city_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
       <column name="postal_code" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
       <column name="phone" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="address_id"/>
+      <foreign-key name="fk_address_city" columns="city_id" ref-table="city" ref-schema="" ref-catalog="sakila" ref-columns="city_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_customer_address" table="customer" schema="" catalog="sakila" columns="address_id"/>
+      <exported-key name="fk_staff_address" table="staff" schema="" catalog="sakila" columns="address_id"/>
+      <exported-key name="fk_store_address" table="store" schema="" catalog="sakila" columns="address_id"/>
+      <index name="idx_fk_city_id" unique="false" columns="city_id"/>
     </table>
     <table name="category" schema="" catalog="sakila" type="TABLE">
       <column name="category_id" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" autoIncrement="true"/>
       <column name="name" sqlType="VARCHAR" length="25" precision="0" nullable="false" jdbcType="12"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="category_id"/>
+      <exported-key name="fk_film_category_category" table="film_category" schema="" catalog="sakila" columns="category_id"/>
     </table>
     <table name="city" schema="" catalog="sakila" type="TABLE">
       <column name="city_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" autoIncrement="true"/>
       <column name="city" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
       <column name="country_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="city_id"/>
+      <foreign-key name="fk_city_country" columns="country_id" ref-table="country" ref-schema="" ref-catalog="sakila" ref-columns="country_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_address_city" table="address" schema="" catalog="sakila" columns="city_id"/>
+      <index name="idx_fk_country_id" unique="false" columns="country_id"/>
     </table>
     <table name="country" schema="" catalog="sakila" type="TABLE">
       <column name="country_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" autoIncrement="true"/>
       <column name="country" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="country_id"/>
+      <exported-key name="fk_city_country" table="city" schema="" catalog="sakila" columns="country_id"/>
     </table>
     <table name="customer" schema="" catalog="sakila" type="TABLE">
       <column name="customer_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" autoIncrement="true"/>
@@ -2024,7 +2083,15 @@
       <column name="address_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
       <column name="active" sqlType="BIT" length="0" precision="0" nullable="false" jdbcType="-7" def="MQ=="/>
       <column name="create_date" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="customer_id"/>
+      <foreign-key name="fk_customer_address" columns="address_id" ref-table="address" ref-schema="" ref-catalog="sakila" ref-columns="address_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_customer_store" columns="store_id" ref-table="store" ref-schema="" ref-catalog="sakila" ref-columns="store_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_payment_customer" table="payment" schema="" catalog="sakila" columns="customer_id"/>
+      <exported-key name="fk_rental_customer" table="rental" schema="" catalog="sakila" columns="customer_id"/>
+      <index name="idx_fk_address_id" unique="false" columns="address_id"/>
+      <index name="idx_fk_store_id" unique="false" columns="store_id"/>
+      <index name="idx_last_name" unique="false" columns="last_name"/>
     </table>
     <table name="customer_list" schema="" catalog="sakila" type="VIEW">
       <column name="ID" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5" def="MA=="/>
@@ -2050,17 +2117,33 @@
       <column name="replacement_cost" sqlType="DECIMAL" length="5" precision="2" nullable="false" jdbcType="3" def="MTkuOTk="/>
       <column name="rating" sqlType="ENUM" length="5" precision="0" nullable="true" jdbcType="1" def="J0cn"/>
       <column name="special_features" sqlType="SET" length="54" precision="0" nullable="true" jdbcType="1"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="film_id"/>
+      <foreign-key name="fk_film_language" columns="language_id" ref-table="language" ref-schema="" ref-catalog="sakila" ref-columns="language_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_film_language_original" columns="original_language_id" ref-table="language" ref-schema="" ref-catalog="sakila" ref-columns="language_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_film_actor_film" table="film_actor" schema="" catalog="sakila" columns="film_id"/>
+      <exported-key name="fk_film_category_film" table="film_category" schema="" catalog="sakila" columns="film_id"/>
+      <exported-key name="fk_inventory_film" table="inventory" schema="" catalog="sakila" columns="film_id"/>
+      <index name="idx_fk_language_id" unique="false" columns="language_id"/>
+      <index name="idx_fk_original_language_id" unique="false" columns="original_language_id"/>
+      <index name="idx_title" unique="false" columns="title"/>
     </table>
     <table name="film_actor" schema="" catalog="sakila" type="TABLE">
       <column name="actor_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
       <column name="film_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="actor_id,film_id"/>
+      <foreign-key name="fk_film_actor_actor" columns="actor_id" ref-table="actor" ref-schema="" ref-catalog="sakila" ref-columns="actor_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_film_actor_film" columns="film_id" ref-table="film" ref-schema="" ref-catalog="sakila" ref-columns="film_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <index name="idx_fk_film_id" unique="false" columns="film_id"/>
     </table>
     <table name="film_category" schema="" catalog="sakila" type="TABLE">
       <column name="film_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
       <column name="category_id" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="film_id,category_id"/>
+      <foreign-key name="fk_film_category_category" columns="category_id" ref-table="category" ref-schema="" ref-catalog="sakila" ref-columns="category_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_film_category_film" columns="film_id" ref-table="film" ref-schema="" ref-catalog="sakila" ref-columns="film_id" update-rule="0" delete-rule="3" deferrability="2"/>
     </table>
     <table name="film_list" schema="" catalog="sakila" type="VIEW">
       <column name="FID" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="true" jdbcType="5" def="MA=="/>
@@ -2076,17 +2159,28 @@
       <column name="film_id" sqlType="SMALLINT" length="5" precision="0" nullable="false" jdbcType="5"/>
       <column name="title" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
       <column name="description" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="film_id"/>
+      <index name="idx_title_description" unique="false" columns="title,description"/>
     </table>
     <table name="inventory" schema="" catalog="sakila" type="TABLE">
       <column name="inventory_id" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="film_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
       <column name="store_id" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="inventory_id"/>
+      <foreign-key name="fk_inventory_film" columns="film_id" ref-table="film" ref-schema="" ref-catalog="sakila" ref-columns="film_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_inventory_store" columns="store_id" ref-table="store" ref-schema="" ref-catalog="sakila" ref-columns="store_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_rental_inventory" table="rental" schema="" catalog="sakila" columns="inventory_id"/>
+      <index name="idx_fk_film_id" unique="false" columns="film_id"/>
+      <index name="idx_store_id_film_id" unique="false" columns="store_id,film_id"/>
     </table>
     <table name="language" schema="" catalog="sakila" type="TABLE">
       <column name="language_id" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" autoIncrement="true"/>
       <column name="name" sqlType="CHAR" length="20" precision="0" nullable="false" jdbcType="1"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="language_id"/>
+      <exported-key name="fk_film_language" table="film" schema="" catalog="sakila" columns="language_id"/>
+      <exported-key name="fk_film_language_original" table="film" schema="" catalog="sakila" columns="original_language_id"/>
     </table>
     <table name="nicer_but_slower_film_list" schema="" catalog="sakila" type="VIEW">
       <column name="FID" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="true" jdbcType="5" def="MA=="/>
@@ -2105,7 +2199,13 @@
       <column name="rental_id" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="amount" sqlType="DECIMAL" length="5" precision="2" nullable="false" jdbcType="3"/>
       <column name="payment_date" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="payment_id"/>
+      <foreign-key name="fk_payment_customer" columns="customer_id" ref-table="customer" ref-schema="" ref-catalog="sakila" ref-columns="customer_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_payment_rental" columns="rental_id" ref-table="rental" ref-schema="" ref-catalog="sakila" ref-columns="rental_id" update-rule="0" delete-rule="2" deferrability="2"/>
+      <foreign-key name="fk_payment_staff" columns="staff_id" ref-table="staff" ref-schema="" ref-catalog="sakila" ref-columns="staff_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <index name="idx_fk_customer_id" unique="false" columns="customer_id"/>
+      <index name="idx_fk_staff_id" unique="false" columns="staff_id"/>
     </table>
     <table name="rental" schema="" catalog="sakila" type="TABLE">
       <column name="rental_id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -2114,7 +2214,16 @@
       <column name="customer_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
       <column name="return_date" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
       <column name="staff_id" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="rental_id"/>
+      <foreign-key name="fk_rental_customer" columns="customer_id" ref-table="customer" ref-schema="" ref-catalog="sakila" ref-columns="customer_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_rental_inventory" columns="inventory_id" ref-table="inventory" ref-schema="" ref-catalog="sakila" ref-columns="inventory_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_rental_staff" columns="staff_id" ref-table="staff" ref-schema="" ref-catalog="sakila" ref-columns="staff_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_payment_rental" table="payment" schema="" catalog="sakila" columns="rental_id"/>
+      <index name="rental_date" unique="true" columns="rental_date,inventory_id,customer_id"/>
+      <index name="idx_fk_customer_id" unique="false" columns="customer_id"/>
+      <index name="idx_fk_inventory_id" unique="false" columns="inventory_id"/>
+      <index name="idx_fk_staff_id" unique="false" columns="staff_id"/>
     </table>
     <table name="sales_by_film_category" schema="" catalog="sakila" type="VIEW">
       <column name="category" sqlType="VARCHAR" length="25" precision="0" nullable="false" jdbcType="12"/>
@@ -2136,7 +2245,15 @@
       <column name="active" sqlType="BIT" length="0" precision="0" nullable="false" jdbcType="-7" def="MQ=="/>
       <column name="username" sqlType="VARCHAR" length="16" precision="0" nullable="false" jdbcType="12"/>
       <column name="password" sqlType="VARCHAR" length="40" precision="0" nullable="true" jdbcType="12"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="staff_id"/>
+      <foreign-key name="fk_staff_address" columns="address_id" ref-table="address" ref-schema="" ref-catalog="sakila" ref-columns="address_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_staff_store" columns="store_id" ref-table="store" ref-schema="" ref-catalog="sakila" ref-columns="store_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_payment_staff" table="payment" schema="" catalog="sakila" columns="staff_id"/>
+      <exported-key name="fk_rental_staff" table="rental" schema="" catalog="sakila" columns="staff_id"/>
+      <exported-key name="fk_store_staff" table="store" schema="" catalog="sakila" columns="manager_staff_id"/>
+      <index name="idx_fk_address_id" unique="false" columns="address_id"/>
+      <index name="idx_fk_store_id" unique="false" columns="store_id"/>
     </table>
     <table name="staff_list" schema="" catalog="sakila" type="VIEW">
       <column name="ID" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" def="MA=="/>
@@ -2152,7 +2269,15 @@
       <column name="store_id" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6" autoIncrement="true"/>
       <column name="manager_staff_id" sqlType="TINYINT UNSIGNED" length="3" precision="0" nullable="false" jdbcType="-6"/>
       <column name="address_id" sqlType="SMALLINT UNSIGNED" length="5" precision="0" nullable="false" jdbcType="5"/>
-      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA="/>
+      <column name="last_update" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="store_id"/>
+      <foreign-key name="fk_store_address" columns="address_id" ref-table="address" ref-schema="" ref-catalog="sakila" ref-columns="address_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_store_staff" columns="manager_staff_id" ref-table="staff" ref-schema="" ref-catalog="sakila" ref-columns="staff_id" update-rule="0" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_customer_store" table="customer" schema="" catalog="sakila" columns="store_id"/>
+      <exported-key name="fk_inventory_store" table="inventory" schema="" catalog="sakila" columns="store_id"/>
+      <exported-key name="fk_staff_store" table="staff" schema="" catalog="sakila" columns="store_id"/>
+      <index name="idx_unique_manager" unique="true" columns="manager_staff_id"/>
+      <index name="idx_fk_address_id" unique="false" columns="address_id"/>
     </table>
     <table name="city" schema="" catalog="world" type="TABLE">
       <column name="ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -2160,6 +2285,7 @@
       <column name="CountryCode" sqlType="CHAR" length="3" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="District" sqlType="CHAR" length="20" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="Population" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
+      <primary-key name="PRIMARY" columns="ID"/>
     </table>
     <table name="country" schema="" catalog="world" type="TABLE">
       <column name="Code" sqlType="CHAR" length="3" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
@@ -2177,12 +2303,14 @@
       <column name="HeadOfState" sqlType="CHAR" length="60" precision="0" nullable="true" jdbcType="1"/>
       <column name="Capital" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="Code2" sqlType="CHAR" length="2" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
+      <primary-key name="PRIMARY" columns="Code"/>
     </table>
     <table name="countrylanguage" schema="" catalog="world" type="TABLE">
       <column name="CountryCode" sqlType="CHAR" length="3" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="Language" sqlType="CHAR" length="30" precision="0" nullable="false" jdbcType="1" def="Jyc="/>
       <column name="IsOfficial" sqlType="ENUM" length="2" precision="0" nullable="false" jdbcType="1" def="J0Yn"/>
       <column name="Percentage" sqlType="FLOAT" length="4" precision="1" nullable="false" jdbcType="7" def="MC4w"/>
+      <primary-key name="PRIMARY" columns="CountryCode,Language"/>
     </table>
     <procedure name="film_in_stock" schema="" catalog="sakila" type="1">
       <prototype>
