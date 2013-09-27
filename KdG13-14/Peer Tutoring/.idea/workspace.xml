@@ -7,7 +7,7 @@
     <file path="/C2F.java" changelist="97e92187-0bb8-4c94-847e-909c693cd66a" time="1380290916300" ignored="false" />
     <file path="/part2.java" changelist="97e92187-0bb8-4c94-847e-909c693cd66a" time="1380292140289" ignored="false" />
     <file path="/fragment.java" changelist="97e92187-0bb8-4c94-847e-909c693cd66a" time="1380292289941" ignored="false" />
-    <file path="/part3.java" changelist="97e92187-0bb8-4c94-847e-909c693cd66a" time="1380292345826" ignored="false" />
+    <file path="/part3.java" changelist="97e92187-0bb8-4c94-847e-909c693cd66a" time="1380293655571" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <file leaf-file-name="part3.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/part3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="37" selection-start="788" selection-end="788" vertical-scroll-proportion="0.72629696">
+            <state line="11" column="52" selection-start="228" selection-end="228" vertical-scroll-proportion="0.17889088">
               <folding />
             </state>
           </provider>
@@ -206,7 +206,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.part2">
+  <component name="RunManager" selected="Application.part3">
     <configuration default="false" name="part1" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="part1" />
@@ -227,6 +227,23 @@
     <configuration default="false" name="part2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="part2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Peer Tutoring" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="part3" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="part3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -332,14 +349,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.part1" />
       <item index="1" class="java.lang.String" itemvalue="Application.part2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.part3" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.part2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.part1" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.part3" />
+        <item index="1" class="java.lang.String" itemvalue="Application.part2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.part1" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -358,7 +377,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1050" extended-state="1" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -379,7 +398,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494432" sideWeight="0.6704036" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -468,7 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/part3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="788" selection-end="788" vertical-scroll-proportion="0.72629696">
+        <state line="11" column="52" selection-start="228" selection-end="228" vertical-scroll-proportion="0.17889088">
           <folding />
         </state>
       </provider>

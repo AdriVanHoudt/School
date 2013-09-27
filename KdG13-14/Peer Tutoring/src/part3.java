@@ -27,7 +27,7 @@ public class part3 {
 
             while (start <= end){
                 double result = start * 1.8 + 32 ;
-                System.out.printf("10%s°C = " + result + "°F", "" + start);
+                System.out.printf("%6s°C = %4s°F\n", "" + start, "" + result);
                 start += step;
             }
         }
