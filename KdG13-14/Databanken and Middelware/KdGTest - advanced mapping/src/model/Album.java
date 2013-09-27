@@ -4,7 +4,9 @@ import org.hibernate.annotations.*;
 import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -23,10 +25,13 @@ public class Album {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String title;
-    @OneToMany
+    @ManyToMany
     @Cascade({org.hibernate.annotations.CascadeType.SAVE_UPDATE})
-    @JoinColumn(name = "albumId", nullable = false)
-    private Set<Song> songs = new HashSet<>();
+    @JoinTable(
+            name = "t_album_song",
+            joinColumns = {@JoinColumn(name = "albumId")},
+            inverseJoinColumns = {@JoinColumn(name = "songId")})
+    private List<Song> songs = new ArrayList<>();
 
     public Integer getId() {
         return id;
@@ -36,7 +41,7 @@ public class Album {
         this.id = id;
     }
 
-    public Album(String title, Set<Song> songs) {
+    public Album(String title, List<Song> songs) {
         this.title = title;
         this.songs = songs;
     }
@@ -53,11 +58,11 @@ public class Album {
         this.title = title;
     }
 
-    public Set<Song> getSongs() {
+    public List<Song> getSongs() {
         return songs;
     }
 
-    public void setSongs(Set<Song> songs) {
+    public void setSongs(List<Song> songs) {
         this.songs = songs;
     }
 

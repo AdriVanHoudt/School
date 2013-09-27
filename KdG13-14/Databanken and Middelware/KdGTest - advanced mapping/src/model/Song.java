@@ -1,12 +1,10 @@
 package model;
 
-import com.sun.xml.internal.bind.v2.model.core.ID;
-import org.hibernate.annotations.*;
+import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 
 import javax.persistence.*;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -28,7 +26,12 @@ public class Song {
 
     @ManyToMany(mappedBy = "songs")
     @Cascade(CascadeType.SAVE_UPDATE)
-    private Set<Playlist> playlists = new HashSet<>();
+    private List<Playlist> playlists = new ArrayList<>();
+
+    @ManyToMany(mappedBy = "songs")
+    @Cascade(CascadeType.SAVE_UPDATE)
+    private  List<Album> albums = new ArrayList<>();
+
 
     @ManyToOne
     @Cascade({org.hibernate.annotations.CascadeType.SAVE_UPDATE})
@@ -82,15 +85,23 @@ public class Song {
     }
 
 
-    public Set<Playlist> getPlaylists() {
+    public List<Playlist> getPlaylists() {
         return playlists;
     }
 
-    public void setPlaylists(Set<Playlist> playlists) {
+    public void setPlaylists(List<Playlist> playlists) {
         this.playlists = playlists;
     }
 
     public void addPlaylist(Playlist playlist) {
         this.playlists.add(playlist);
+    }
+
+    public List<Album> getAlbums() {
+        return albums;
+    }
+
+    public void setAlbums(List<Album> albums) {
+        this.albums = albums;
     }
 }

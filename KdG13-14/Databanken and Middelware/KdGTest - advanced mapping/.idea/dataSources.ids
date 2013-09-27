@@ -734,7 +734,13 @@
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
-      <exported-key name="FK_kh8p874yanxrk4kag0ukuuukn" table="t_song" schema="" catalog="kdgtest" columns="albumId"/>
+      <exported-key name="FK_srhxmdw5hn1uht9xcib1f235j" table="t_album_song" schema="" catalog="kdgtest" columns="albumId"/>
+    </table>
+    <table name="t_album_song" schema="" catalog="kdgtest" type="TABLE">
+      <column name="albumId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="songId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="FK_srhxmdw5hn1uht9xcib1f235j" columns="albumId" ref-table="t_album" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="FK_owgbc9f7le0deke6kxuw1o7ng" columns="songId" ref-table="t_song" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
     <table name="t_artist" schema="" catalog="kdgtest" type="TABLE">
       <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -751,7 +757,6 @@
     <table name="t_playlist_song" schema="" catalog="kdgtest" type="TABLE">
       <column name="playlistId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="songId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <primary-key name="PRIMARY" columns="playlistId,songId"/>
       <foreign-key name="FK_5mbsfhw5kpojqx2tsqffx4cv9" columns="playlistId" ref-table="t_playlist" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK_lij5xnrvo33ksvdrjw9sdwce7" columns="songId" ref-table="t_song" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
@@ -760,10 +765,9 @@
       <column name="length" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="title" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
       <column name="artistId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="albumId" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="id"/>
-      <foreign-key name="FK_kh8p874yanxrk4kag0ukuuukn" columns="albumId" ref-table="t_album" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <foreign-key name="FK_5cn57k8mj32cox4vmcj8hecy2" columns="artistId" ref-table="t_artist" ref-schema="" ref-catalog="kdgtest" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="FK_owgbc9f7le0deke6kxuw1o7ng" table="t_album_song" schema="" catalog="kdgtest" columns="songId"/>
       <exported-key name="FK_lij5xnrvo33ksvdrjw9sdwce7" table="t_playlist_song" schema="" catalog="kdgtest" columns="songId"/>
     </table>
     <table name="columns_priv" schema="" catalog="mysql" type="TABLE">

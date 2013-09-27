@@ -7,15 +7,15 @@
     <file path="/hibernateMySQL.cfg.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380274499705" ignored="false" />
     <file path="/ActionScript File Header.txt.ft" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379664151494" ignored="false" />
     <file path="/File Header.txt.ft" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379664159526" ignored="false" />
-    <file path="/Song.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380274825714" ignored="false" />
+    <file path="/Song.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380275513044" ignored="false" />
     <file path="/Song.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379673833253" ignored="false" />
     <file path="/Main.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380274985570" ignored="false" />
     <file path="/fragment.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379667496266" ignored="false" />
-    <file path="/Album.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380267945525" ignored="false" />
+    <file path="/Album.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380275402724" ignored="false" />
     <file path="/Album.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379670275585" ignored="false" />
-    <file path="/Artist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380272075720" ignored="false" />
+    <file path="/Artist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380275369911" ignored="false" />
     <file path="/Artist.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379673731084" ignored="false" />
-    <file path="/Playlist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380274808627" ignored="false" />
+    <file path="/Playlist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380275299195" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +81,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="46" selection-start="866" selection-end="866" vertical-scroll-proportion="0.66">
+            <state line="37" column="46" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Album.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/Album.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="49" selection-start="594" selection-end="594" vertical-scroll-proportion="0.42461538">
               <folding />
             </state>
           </provider>
@@ -93,7 +102,7 @@
       <file leaf-file-name="Playlist.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Playlist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="34" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+            <state line="29" column="47" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +120,7 @@
       <file leaf-file-name="Artist.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Artist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="8" selection-start="980" selection-end="1078" vertical-scroll-proportion="0.0">
+            <state line="43" column="32" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,7 +129,7 @@
       <file leaf-file-name="Song.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Song.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="37" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
+            <state line="32" column="28" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,13 +153,13 @@
         <option value="$PROJECT_DIR$/src/persistence/Album.hbm.xml" />
         <option value="$PROJECT_DIR$/src/persistence/Artist.hbm.xml" />
         <option value="$PROJECT_DIR$/src/persistence/Song.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/model/Album.java" />
         <option value="dbtable:/9967d965/1b7f7264-e647-47bc-861a-723e063dd635/kdgtest..t_album" />
-        <option value="$PROJECT_DIR$/src/model/Artist.java" />
         <option value="$PROJECT_DIR$/src/hibernateMySQL.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/model/Song.java" />
-        <option value="$PROJECT_DIR$/src/model/Playlist.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/model/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/model/Artist.java" />
+        <option value="$PROJECT_DIR$/src/model/Album.java" />
+        <option value="$PROJECT_DIR$/src/model/Song.java" />
       </list>
     </option>
   </component>
@@ -508,7 +517,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2260579" sideWeight="0.75784755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24215247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24215247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -635,13 +644,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="276" selection-end="276" vertical-scroll-proportion="0.019585254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernateMySQL.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="38" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0">
@@ -649,32 +651,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="46" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Artist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="8" selection-start="980" selection-end="1078" vertical-scroll-proportion="0.0">
+        <state line="43" column="32" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Playlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="47" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Song.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="37" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0">
+        <state line="32" column="28" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Playlist.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Album.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="46" selection-start="866" selection-end="866" vertical-scroll-proportion="0.66">
+        <state line="29" column="49" selection-start="594" selection-end="594" vertical-scroll-proportion="0.42461538">
           <folding />
         </state>
       </provider>
