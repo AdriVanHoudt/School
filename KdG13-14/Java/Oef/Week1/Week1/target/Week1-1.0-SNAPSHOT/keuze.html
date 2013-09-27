@@ -10,27 +10,27 @@ and open the template in the editor.
     </head>
     <body>
         <h1>Voorkeur specialisatie</h1>
-        <form action="/">
+        <form action="KeuzeServlet" method="post">
             <table border="1">
                 <tr>
                     <td><label>Naam</label></td>
-                    <td><input type="text" /></td>
+                    <td><input type="text" name="naam" /></td>
                 </tr>
                 <tr>
                     <td><label>Jaar</label></td>
                     <td>
-                        <input type="radio" name="jaar" />Eerste jaar   <br/>
-                        <input type="radio" name="jaar" />Tweede jaar   <br/>
-                        <input type="radio" name="jaar" />Derde jaar    <br/>
+                        <input type="radio" name="jaar" value="Eerste" />Eerste jaar   <br/>
+                        <input type="radio" name="jaar" value="tweede jaar"/>Tweede jaar   <br/>
+                        <input type="radio" name="jaar" value="Derde jaar" />Derde jaar    <br/>
                     </td>
                 </tr>
                 <tr>
                     <td><label>Specialisatie</label></td>
                     <td>
-                        <input type="radio" name="spec"/>Applicatieontwikkeling <br/>
-                        <input type="radio" name="spec"/>SE & SM    <br/>
-                        <input type="radio" name="spec"/>Multimedia <br/>
-                        <input type="radio" name="spec"/>Datacom    <br/>
+                        <input type="radio" name="spec" value="App" />Applicatieontwikkeling <br/>
+                        <input type="radio" name="spec" value="SE & SM" />SE & SM    <br/>
+                        <input type="radio" name="spec" value="Multi" />Multimedia <br/>
+                        <input type="radio" name="spec" value="Datacom" />Datacom    <br/>
                     </td>
                 </tr>
             </table>
