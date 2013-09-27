@@ -1,4 +1,9 @@
 package model;
+import org.hibernate.annotations.*;
+
+import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -7,14 +12,21 @@ import java.util.Set;
  * Date: 20/09/13
  * Time: 11:21
  */
+@Entity
+@Table(name = "t_album")
 public class Album {
 
     public Album() {
     }
 
-    public Integer id;
-    public String title;
-    public Set<Song> songs = new HashSet<>();
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    private String title;
+    @OneToMany
+    @Cascade({org.hibernate.annotations.CascadeType.SAVE_UPDATE})
+    @JoinColumn(name = "albumId", nullable = false)
+    private Set<Song> songs = new HashSet<>();
 
     public Integer getId() {
         return id;
@@ -27,6 +39,10 @@ public class Album {
     public Album(String title, Set<Song> songs) {
         this.title = title;
         this.songs = songs;
+    }
+
+    public Album(String title){
+        this.title = title;
     }
 
     public String getTitle() {

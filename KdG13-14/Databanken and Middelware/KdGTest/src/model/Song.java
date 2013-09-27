@@ -1,17 +1,31 @@
 package model;
 
+import com.sun.xml.internal.bind.v2.model.core.ID;
+import org.hibernate.annotations.*;
+
+import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 /**
  * User: Adri
  * Date: 20/09/13
  * Time: 10:01
  */
-
+@Entity
+@Table(name = "t_song")
 public class Song {
 
-    public Integer id;
-    public String title;
-    public Integer length;
-    public Artist artist;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    private String title;
+    private Integer length;
+
+    @ManyToOne
+    @Cascade({org.hibernate.annotations.CascadeType.SAVE_UPDATE})
+    @JoinColumn(name = "artistId", nullable = false)
+    private Artist artist;
 
     public Artist getArtist() {
         return artist;

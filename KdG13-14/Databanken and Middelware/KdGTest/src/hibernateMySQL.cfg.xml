@@ -10,7 +10,7 @@
         <property name="connection.username">KdgUser</property>
         <property name="connection.password">azerty</property>
 
-        <property name="hbm2ddl.auto">update</property>
+        <property name="hbm2ddl.auto">create-drop</property>
 		
         <!-- SQL dialect -->
         <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
@@ -24,8 +24,11 @@
         <property name="use_sql_comments">false</property>
 
         <!-- Reference to all the mapping files used -->
-        <mapping resource="persistence/Song.hbm.xml" />
-        <mapping resource="persistence/Album.hbm.xml" />
-        <mapping resource="persistence/Artist.hbm.xml" />
+        <!--mapping resource="persistence/Song.hbm.xml" /-->
+        <!--mapping resource="persistence/Album.hbm.xml" /-->
+        <!--mapping resource="persistence/Artist.hbm.xml" /-->
+        <mapping class="model.Artist" />
+        <mapping class="model.Album" />
+        <mapping class="model.Song" />
     </session-factory>
 </hibernate-configuration>

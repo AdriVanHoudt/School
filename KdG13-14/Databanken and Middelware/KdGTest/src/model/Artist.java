@@ -1,10 +1,15 @@
 package model;
 
+import javax.annotation.Generated;
+import javax.persistence.*;
+
 /**
  * User: Adri
  * Date: 20/09/13
  * Time: 12:39
  */
+@Entity
+@Table(name = "t_artist")
 public class Artist {
 
     public Artist() {
@@ -14,8 +19,10 @@ public class Artist {
         this.name = name;
     }
 
-    public Integer id;
-    public String name;
+    @Id @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private Integer id;
+    @Column(name = "name")     //kan weggelaten worden
+    private String name;
 
     public Integer getId() {
         return id;
