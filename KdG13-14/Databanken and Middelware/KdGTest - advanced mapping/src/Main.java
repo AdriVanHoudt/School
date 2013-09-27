@@ -15,16 +15,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Artist a1 = new Artist("pom");
-        Artist a2 = new Artist("pom2");
-        Artist a3 = new Artist("pom3");
+        Artist a1 = new Artist("Artist1");
+        Artist a2 = new Artist("Artist2");
+        Artist a3 = new Artist("Artist3");
 
-        Song s1 = new Song(3, "Alles geven", a1);
-        Song s2 = new Song(4, "Alles geven2", a2);
-        Song s3 = new Song(4, "Alles geven4", a3);
-        Song s4 = new Song(4, "Alles geven5", a1);
+        Song s1 = new Song(3, "Alles geven");
+        Song s2 = new Song(4, "Alles geven2");
+        Song s3 = new Song(4, "Alles geven4");
+
+        //artist in song set by artist himself
+        a1.addSong(s1);
+        a1.addSong(s2);
+        a1.addSong(s3);
 
         Album al1 = new Album("Ace of spades");
+
         al1.addSong(s1);
         al1.addSong(s2);
         al1.addSong(s3);

@@ -27,6 +27,11 @@ public class Song {
     @JoinColumn(name = "artistId", nullable = false)
     private Artist artist;
 
+    public Song(Integer l, String s) {
+        this.length = l;
+        this.title = s;
+    }
+
     public Artist getArtist() {
         return artist;
     }

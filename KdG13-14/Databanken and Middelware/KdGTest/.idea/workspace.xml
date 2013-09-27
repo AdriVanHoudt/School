@@ -7,13 +7,13 @@
     <file path="/hibernateMySQL.cfg.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380268545803" ignored="false" />
     <file path="/ActionScript File Header.txt.ft" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379664151494" ignored="false" />
     <file path="/File Header.txt.ft" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379664159526" ignored="false" />
-    <file path="/Song.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380272159830" ignored="false" />
+    <file path="/Song.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380266627089" ignored="false" />
     <file path="/Song.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379673833253" ignored="false" />
-    <file path="/Main.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380272256839" ignored="false" />
+    <file path="/Main.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380268116717" ignored="false" />
     <file path="/fragment.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379667496266" ignored="false" />
     <file path="/Album.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380267945525" ignored="false" />
     <file path="/Album.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379670275585" ignored="false" />
-    <file path="/Artist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380272075720" ignored="false" />
+    <file path="/Artist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380265085966" ignored="false" />
     <file path="/Artist.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379673731084" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,37 +79,7 @@
     <favorites_list name="untitled" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.6861538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Artist.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Artist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="29" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Song.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Song.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="23" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -125,12 +95,11 @@
         <option value="$PROJECT_DIR$/src/persistence/Album.hbm.xml" />
         <option value="$PROJECT_DIR$/src/persistence/Artist.hbm.xml" />
         <option value="$PROJECT_DIR$/src/persistence/Song.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/model/Album.java" />
-        <option value="$PROJECT_DIR$/src/hibernateMySQL.cfg.xml" />
-        <option value="dbtable:/9967d965/1b7f7264-e647-47bc-861a-723e063dd635/kdgtest..t_album" />
         <option value="$PROJECT_DIR$/src/model/Artist.java" />
         <option value="$PROJECT_DIR$/src/model/Song.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/model/Album.java" />
+        <option value="$PROJECT_DIR$/src/hibernateMySQL.cfg.xml" />
       </list>
     </option>
   </component>
@@ -184,75 +153,9 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hibernate_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hibernate_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KdGTest - advanced mapping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hibernate_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KdGTest - advanced mapping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hibernate_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KdGTest - advanced mapping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hibernate_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KdGTest - advanced mapping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -267,7 +170,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,19 +180,18 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propCompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KdGTest - advanced mapping" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -307,7 +208,7 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$USER_HOME$/Documents/GitHub/School/KdG13-14/Databanken and Middelware/KdGTest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -339,6 +240,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -352,7 +266,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/School/KdG13-14/Databanken and Middelware/KdGTest" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -367,25 +281,12 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$USER_HOME$/Documents/GitHub/School/KdG13-14/Databanken and Middelware/KdGTest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -406,7 +307,7 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/School/KdG13-14/Databanken and Middelware/KdGTest" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -466,7 +367,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -487,8 +388,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27282852" sideWeight="0.75784755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24215247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27282852" sideWeight="0.75672644" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24327354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -562,99 +463,79 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/Hibernate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="372" selection-end="372" vertical-scroll-proportion="-5.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/event/spi/SaveOrUpdateEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="1488" selection-end="1488" vertical-scroll-proportion="-6.16" />
+        <state line="34" column="16" selection-start="1488" selection-end="1488" vertical-scroll-proportion="-6.16">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/internal/AbstractSessionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-5.44" />
+        <state line="21" column="19" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/cfg/Settings.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="251" column="19" selection-start="10971" selection-end="10971" vertical-scroll-proportion="-10.24" />
+        <state line="251" column="19" selection-start="10971" selection-end="10971" vertical-scroll-proportion="-10.24">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/engine/transaction/internal/jdbc/JdbcTransactionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="786" selection-end="786" vertical-scroll-proportion="-9.52" />
+        <state line="15" column="19" selection-start="786" selection-end="786" vertical-scroll-proportion="-9.52">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/engine/transaction/internal/TransactionCoordinatorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="99" selection-start="3212" selection-end="3212" vertical-scroll-proportion="-5.44" />
+        <state line="50" column="99" selection-start="3212" selection-end="3212" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/engine/transaction/synchronization/internal/SynchronizationCallbackCoordinatorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="16" selection-start="2342" selection-end="2342" vertical-scroll-proportion="-7.52" />
+        <state line="38" column="16" selection-start="2342" selection-end="2342" vertical-scroll-proportion="-7.52">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/internal/SessionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="353" column="55" selection-start="22919" selection-end="22919" vertical-scroll-proportion="-5.44" />
+        <state line="353" column="55" selection-start="22919" selection-end="22919" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/engine/internal/StatefulPersistenceContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="48" selection-start="5444" selection-end="5444" vertical-scroll-proportion="-5.44" />
+        <state line="88" column="48" selection-start="5444" selection-end="5444" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/event/internal/DefaultSaveOrUpdateEventListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="1317" selection-end="1317" vertical-scroll-proportion="-5.44" />
+        <state line="23" column="19" selection-start="1317" selection-end="1317" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/context/internal/ThreadLocalSessionContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="32" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.29025424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernateMySQL.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="49" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/9967d965/1b7f7264-e647-47bc-861a-723e063dd635/kdgtest..t_album">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="276" selection-end="276" vertical-scroll-proportion="0.019585254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="29" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Song.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.6861538">
+        <state line="51" column="32" selection-start="2592" selection-end="2592" vertical-scroll-proportion="0.29025424">
           <folding />
         </state>
       </provider>

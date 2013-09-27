@@ -2,6 +2,8 @@ package model;
 
 import javax.annotation.Generated;
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * User: Adri
@@ -21,8 +23,12 @@ public class Artist {
 
     @Id @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;
+
     @Column(name = "name")     //kan weggelaten worden
     private String name;
+
+    @OneToMany(mappedBy = "artist")
+    private Set<Song> songs = new HashSet<>();
 
     public Integer getId() {
         return id;
@@ -38,5 +44,18 @@ public class Artist {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Set<Song> getSongs() {
+        return songs;
+    }
+
+    public void setSongs(Set<Song> songs) {
+        this.songs = songs;
+    }
+
+    public void addSong(Song song){
+        song.setArtist(this);
+        this.songs.add(song);
     }
 }
