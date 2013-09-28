@@ -1,11 +1,8 @@
 package model;
 
-import javax.annotation.Generated;
 import javax.persistence.*;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * User: Adri
@@ -13,6 +10,8 @@ import java.util.Set;
  * Time: 12:39
  */
 @Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "type", discriminatorType = DiscriminatorType.STRING)
 @Table(name = "t_artist")
 public class Artist {
 

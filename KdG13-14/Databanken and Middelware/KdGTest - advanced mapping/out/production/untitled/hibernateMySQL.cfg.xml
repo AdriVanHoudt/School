@@ -31,5 +31,7 @@
         <mapping class="model.Album" />
         <mapping class="model.Song" />
         <mapping class="model.Playlist" />
+        <mapping class="model.SoloArtist" />
+        <mapping class="model.Band" />
     </session-factory>
 </hibernate-configuration>
