@@ -30,7 +30,8 @@ public class Playlist {
     @JoinTable(
             name = "t_playlist_song",
             joinColumns = {@JoinColumn(name = "playlistId")},
-            inverseJoinColumns = {@JoinColumn(name = "songId")})
+            inverseJoinColumns = {@JoinColumn(name = "songId")}
+    )
     private List<Song> songs = new ArrayList<>();
 
 

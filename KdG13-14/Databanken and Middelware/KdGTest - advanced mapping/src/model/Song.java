@@ -4,10 +4,7 @@ import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * User: Adri
@@ -104,4 +101,17 @@ public class Song {
     public void setAlbums(List<Album> albums) {
         this.albums = albums;
     }
+
+    @ManyToMany(mappedBy = "songs")
+    @Cascade(CascadeType.SAVE_UPDATE)
+    private Collection<Genre> genres;
+
+    public Collection<Genre> getGenres() {
+        return genres;
+    }
+
+    public void setGenres(Collection<Genre> genres) {
+        this.genres = genres;
+    }
+
 }

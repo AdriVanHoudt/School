@@ -28,6 +28,12 @@ public class Main {
         Song s2 = new Song(4, "Alles geven2");
         Song s3 = new Song(4, "Alles geven4");
 
+        Genre g1 = new Genre("Dance");
+        Genre g2 = new Genre("Rock");
+        Genre g3 = new Genre("Reggae");
+        Genre g4 = new Genre("Metal");
+
+
         //only save or update objects into session when all connections are there
         //e.g. don't save song in session unless artist is added
 
@@ -35,6 +41,8 @@ public class Main {
         a1.addSong(s1);
         a1.addSong(s2);
         a2.addSong(s3);
+
+        g1.addSong(s1);
 
         Album al1 = new Album("Ace of spades");
         Album al2 = new Album("Ace of hearts");
