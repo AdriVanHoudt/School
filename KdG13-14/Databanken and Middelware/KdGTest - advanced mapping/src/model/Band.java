@@ -10,7 +10,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_artist")
 @DiscriminatorValue(value = "B")
-//@PrimaryKeyJoinColumn(name = "artist_id")          if inheritance with join
 public class Band extends Artist {
 
     public Band() {

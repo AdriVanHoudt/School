@@ -10,7 +10,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_artist")
 @DiscriminatorValue(value = "S")
-//@PrimaryKeyJoinColumn(name = "artist_id")
 public class SoloArtist extends Artist {
 
     public SoloArtist() {

@@ -4,16 +4,16 @@
     <list default="true" id="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" name="Default" comment="" />
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/hibernateMySQL.cfg.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380391189202" ignored="false" />
+    <file path="/hibernateMySQL.cfg.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380460301327" ignored="false" />
     <file path="/ActionScript File Header.txt.ft" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379664151494" ignored="false" />
     <file path="/File Header.txt.ft" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379664159526" ignored="false" />
     <file path="/Song.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380275513044" ignored="false" />
     <file path="/Song.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379673833253" ignored="false" />
-    <file path="/Main.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380390693668" ignored="false" />
+    <file path="/Main.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380460434190" ignored="false" />
     <file path="/fragment.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379667496266" ignored="false" />
     <file path="/Album.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380275402724" ignored="false" />
     <file path="/Album.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379670275585" ignored="false" />
-    <file path="/Artist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380391218216" ignored="false" />
+    <file path="/Artist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380401652148" ignored="false" />
     <file path="/Artist.hbm.xml" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1379673731084" ignored="false" />
     <file path="/Playlist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380275299195" ignored="false" />
     <file path="/SoloArtist.java" changelist="ba80808d-f7a2-4591-bb8f-df6f59d1ce5e" time="1380388754130" ignored="false" />
@@ -95,16 +95,16 @@
       <file leaf-file-name="Artist.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Artist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+            <state line="12" column="52" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Band.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Band.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Band.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="77" selection-start="244" selection-end="244" vertical-scroll-proportion="0.31384614">
+            <state line="11" column="32" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,10 +119,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+            <state line="31" column="64" selection-start="931" selection-end="931" vertical-scroll-proportion="0.41335455">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/persistence/HibernateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,7 +140,7 @@
       <file leaf-file-name="hibernateMySQL.cfg.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hibernateMySQL.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="34" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.0">
+            <state line="25" column="11" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,11 +166,11 @@
         <option value="$PROJECT_DIR$/src/model/Album.java" />
         <option value="$PROJECT_DIR$/src/model/Song.java" />
         <option value="$PROJECT_DIR$/src/model/Playlist.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/hibernateMySQL.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/model/SoloArtist.java" />
         <option value="$PROJECT_DIR$/src/model/Artist.java" />
         <option value="$PROJECT_DIR$/src/model/Band.java" />
+        <option value="$PROJECT_DIR$/src/model/SoloArtist.java" />
+        <option value="$PROJECT_DIR$/src/hibernateMySQL.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -214,21 +223,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hibernate_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,6 +293,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hibernate_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,12 +325,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -370,19 +379,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -409,6 +405,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -593,11 +602,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/engine/transaction/internal/TransactionCoordinatorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="99" selection-start="3212" selection-end="3212" vertical-scroll-proportion="-5.44" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../hibernate/hibernate-core-4.2.2.Final.jar!/org/hibernate/engine/transaction/synchronization/internal/SynchronizationCallbackCoordinatorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="16" selection-start="2342" selection-end="2342" vertical-scroll-proportion="-7.52" />
@@ -624,11 +628,11 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/9967d965/1b7f7264-e647-47bc-861a-723e063dd635/kdgtest..t_album">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Album.java">
@@ -652,30 +656,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernateMySQL.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/persistence/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="34" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Artist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+        <state line="12" column="52" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Band.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -687,9 +689,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Band.java">
+    <entry file="file://$PROJECT_DIR$/src/hibernateMySQL.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="77" selection-start="244" selection-end="244" vertical-scroll-proportion="0.31384614">
+        <state line="25" column="11" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="64" selection-start="931" selection-end="931" vertical-scroll-proportion="0.41335455">
           <folding />
         </state>
       </provider>

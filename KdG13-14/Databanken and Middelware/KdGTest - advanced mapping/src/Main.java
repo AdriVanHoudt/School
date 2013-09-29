@@ -28,6 +28,9 @@ public class Main {
         Song s2 = new Song(4, "Alles geven2");
         Song s3 = new Song(4, "Alles geven4");
 
+        //only save or update objects into session when all connections are there
+        //e.g. don't save song in session unless artist is added
+
         //artist in song set by artist himself
         a1.addSong(s1);
         a1.addSong(s2);
@@ -39,6 +42,9 @@ public class Main {
         al1.addSong(s1);
         al1.addSong(s2);
         al2.addSong(s3);
+
+        session.saveOrUpdate(al1);
+        session.saveOrUpdate(al2);
 
         Playlist pl1 = new Playlist("Top 3");
         pl1.addSong(s1);
