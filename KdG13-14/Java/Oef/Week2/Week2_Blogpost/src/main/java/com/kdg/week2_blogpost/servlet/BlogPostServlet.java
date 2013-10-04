@@ -26,7 +26,7 @@ public class BlogPostServlet extends HttpServlet {
         Blog blog = (Blog)cntxt.getAttribute("blog");
 
         if(!blog.userExists(request.getParameter("name"))){
-            User user = new User(request.getParameter("name"));
+            user = new User(request.getParameter("name"));
             blog.addPost(user, request.getAttribute("jaar").toString() ,request.getAttribute("specialiteit").toString(), request.getAttribute("url").toString(), request.getAttribute("omschrijving").toString());
         }
 
