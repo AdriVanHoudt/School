@@ -7,8 +7,8 @@ import javax.jms.*;
  * Date: 4/10/13
  * Time: 9:38
  */
-public class Receiver {
-    public static void main(String[] args) throws JMSException {
+public class ReceiverMessageListener {
+    public static void main(String[] args) throws JMSException, InterruptedException {
         // Create a ConnectionFactory
         ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://localhost:61616");
 
@@ -23,25 +23,26 @@ public class Receiver {
 
         // Create a MessageConsumer
         MessageConsumer consumer = session.createConsumer(destination);
-        //consumer.setMessageListener(DeliveryMode.NON_PERSISTENT);
+        MessageListener listener = new MessageListener() {
+            @Override
+            public void onMessage(Message message) {
+                TextMessage txtmsg = (TextMessage) message;
+                try {
+                    System.out.println(txtmsg.getText());
 
-        while (true){
-            // this call blocks until a new message arrives
-            Message message = consumer.receive();
-            TextMessage textMessage = (TextMessage) message;
 
-            System.out.println(textMessage.getText());
+                    if (txtmsg.getText().equals("exit")){
+                        System.exit(0);
+                    }
 
-            if (textMessage.getText().equals("exit")){
-                consumer.close();
-                session.close();
-                connection.close();
-
-                System.exit(0);
+                } catch (JMSException e) {
+                    e.printStackTrace();
+                }
             }
+        } ;
+        consumer.setMessageListener(listener);
 
-
-        }
+        Thread.sleep(1000000000);
 
 
     }
