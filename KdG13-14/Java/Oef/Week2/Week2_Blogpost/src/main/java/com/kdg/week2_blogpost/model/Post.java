@@ -23,5 +23,33 @@ public class Post {
         this.user = user;
     }
 
+    public String getDescription() {
+        return description;
+    }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public String getSpecialization() {
+        return specialization;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public Blog getBlog() {
+        return blog;
+    }
+
+    
 }

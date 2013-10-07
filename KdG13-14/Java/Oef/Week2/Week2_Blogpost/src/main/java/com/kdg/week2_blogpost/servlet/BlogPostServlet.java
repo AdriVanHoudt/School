@@ -34,7 +34,7 @@ public class BlogPostServlet extends HttpServlet {
             blog.addPost(user,request.getParameter("jaar").toString() ,request.getParameter("specialiteit").toString(), request.getParameter("url").toString(), request.getParameter("omschrijving").toString());   
         }
         
-
+        response.sendRedirect("BlogListServlet");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

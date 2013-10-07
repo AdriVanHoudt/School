@@ -15,8 +15,8 @@ public class Blog {
     private Map<String, User> users;
 
     public Blog() {
-        this.posts = new HashMap<Integer, Post>();
-        this.users = new HashMap<String, User>();
+        this.posts = new HashMap<>();
+        this.users = new HashMap<>();
     }
     
     public synchronized void addPost(User user, String year, String specialization, String url, String description){
@@ -31,5 +31,9 @@ public class Blog {
      public User getUser(String username) {
          return users.get(username);
      }
+
+    public Map getPosts() {
+        return this.posts;
+    }
 
 }

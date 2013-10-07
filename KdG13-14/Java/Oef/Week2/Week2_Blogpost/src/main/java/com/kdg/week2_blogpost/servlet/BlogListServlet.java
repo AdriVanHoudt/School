@@ -5,8 +5,10 @@
 package com.kdg.week2_blogpost.servlet;
 
 import com.kdg.week2_blogpost.model.Blog;
+import com.kdg.week2_blogpost.model.Post;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Map;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -36,8 +38,7 @@ public class BlogListServlet extends HttpServlet {
         Blog blog = (Blog)cntxt.getAttribute("blog");
         
         response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        try {
+        try (PrintWriter out = response.getWriter()) {
            
             out.println("<!DOCTYPE html>");
             out.println("<html>");
@@ -45,18 +46,45 @@ public class BlogListServlet extends HttpServlet {
             out.println("<title>Servlet NewServlet</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<table>");
+            
+            Map posts = blog.getPosts();
+            while(it.hasNext()){
+                Post post = (Post)posts.get(i);
+                //posted by
+                out.println("<tr>");
+                out.println("<td>posted b²y</td>");
+                out.println("<td>" + post.getUser().getUsername() + "</td>");               
+                out.println("</tr>");
+                //year
+                out.println("<tr>");
+                out.println("<td>jaar</td>");
+                out.println("<td>" + post.getYear() + "</td>");               
+                out.println("</tr>");
+                //Specialization
+                out.println("<tr>");
+                out.println("<td>jaar</td>");
+                out.println("<td>" + post.getSpecialization() + "</td>");               
+                out.println("</tr>");
+                //description
+                out.println("<tr>");
+                out.println("<td>jaar</td>");
+                out.println("<td>" + post.getDescription()+ "</td>");               
+                out.println("</tr>");
+                //url
+                out.print("<tr>");
+                out.println("<td>jaar</td>");
+                out.print("<td>" + post.getUrl() + "</td>");               
+                out.print("</tr>");
+                
+            }
+            out.println("</table>");
+            //link to blogpost
+            out.println("<a href='blogpost.html'>Add a new post</a>");
             
             out.println("</body>");
             out.println("</html>");
-        } finally {            
-            out.close();
         } 
         
-        
-        
-    }
-
-    
-
-    
+    } 
 }
