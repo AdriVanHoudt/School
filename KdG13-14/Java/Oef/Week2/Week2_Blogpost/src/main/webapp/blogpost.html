@@ -5,7 +5,7 @@
 <body>
     <h2>Toevoegen entry </h2>
     <hr/>
-      <form action="/BlogPostServlet" method="post">
+      <form action="BlogPostServlet" method="post">
       <table align="center" width="100%" cellspacing="2" cellpadding="2">
         <tr>
           <td width="22%" align="left">Gepost door</td>
@@ -25,13 +25,13 @@
           <td align="left">Specialiteit</td>
           <td>
             <p>
-              <input type="checkbox" name="specialiteit" value="Applicatieontwikkeling"/>
+              <input type="radio" name="specialiteit" value="Applicatieontwikkeling"/>
               Applicatieontwikkeling<br/>
-              <input type="checkbox" name="specialiteit" value="Multimedia"/>
+              <input type="radio" name="specialiteit" value="Multimedia"/>
               Multimedia<br/>
-              <input type="checkbox" name="specialiteit" value="Datacommunicatie"/>
+              <input type="radio" name="specialiteit" value="Datacommunicatie"/>
               Datacommunicatie<br/>
-              <input type="checkbox" name="specialiteit" value="SoftwareEngeneering"/>
+              <input type="radio" name="specialiteit" value="SoftwareEngeneering"/>
               SoftwareEngeneering<br/>
             </p>
           </td>

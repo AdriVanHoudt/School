@@ -19,6 +19,7 @@ import java.io.IOException;
 @WebServlet(name = "BlogPostServlet", urlPatterns = {"/BlogPostServlet"})
 public class BlogPostServlet extends HttpServlet {
 
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ServletContext cntxt = getServletContext();
         User user = null;
@@ -27,8 +28,12 @@ public class BlogPostServlet extends HttpServlet {
 
         if(!blog.userExists(request.getParameter("name"))){
             user = new User(request.getParameter("name"));
-            blog.addPost(user, request.getAttribute("jaar").toString() ,request.getAttribute("specialiteit").toString(), request.getAttribute("url").toString(), request.getAttribute("omschrijving").toString());
+            blog.addPost(user, request.getParameter("jaar").toString() ,request.getParameter("specialiteit").toString(), request.getParameter("url").toString(), request.getParameter("omschrijving").toString());
+        }else{
+            user = blog.getUser(request.getParameter("name"));
+            blog.addPost(user,request.getParameter("jaar").toString() ,request.getParameter("specialiteit").toString(), request.getParameter("url").toString(), request.getParameter("omschrijving").toString());   
         }
+        
 
     }
 

@@ -4,6 +4,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import com.kdg.week2_blogpost.model.Blog;
 
+
 /**
  * User: Adri
  * Date: 30/09/13
