@@ -8,6 +8,7 @@ import com.kdg.week2_blogpost.model.Blog;
 import com.kdg.week2_blogpost.model.Post;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Iterator;
 import java.util.Map;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -32,7 +33,7 @@ public class BlogListServlet extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ServletContext cntxt = this.getServletContext();
         
         Blog blog = (Blog)cntxt.getAttribute("blog");
@@ -46,14 +47,19 @@ public class BlogListServlet extends HttpServlet {
             out.println("<title>Servlet NewServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<table>");
+            out.println("<table border=1>");
             
             Map posts = blog.getPosts();
+            
+            Iterator it = posts.entrySet().iterator();
+            
             while(it.hasNext()){
-                Post post = (Post)posts.get(i);
+                Map.Entry pairs = (Map.Entry)it.next();
+                Post post = (Post)pairs.getValue();
+
                 //posted by
                 out.println("<tr>");
-                out.println("<td>posted b²y</td>");
+                out.println("<td>posted by</td>");
                 out.println("<td>" + post.getUser().getUsername() + "</td>");               
                 out.println("</tr>");
                 //year
@@ -63,20 +69,20 @@ public class BlogListServlet extends HttpServlet {
                 out.println("</tr>");
                 //Specialization
                 out.println("<tr>");
-                out.println("<td>jaar</td>");
+                out.println("<td>specializatie</td>");
                 out.println("<td>" + post.getSpecialization() + "</td>");               
                 out.println("</tr>");
                 //description
                 out.println("<tr>");
-                out.println("<td>jaar</td>");
+                out.println("<td>omschrijving</td>");
                 out.println("<td>" + post.getDescription()+ "</td>");               
                 out.println("</tr>");
                 //url
                 out.print("<tr>");
-                out.println("<td>jaar</td>");
+                out.println("<td>url</td>");
                 out.print("<td>" + post.getUrl() + "</td>");               
-                out.print("</tr>");
-                
+                out.print("</tr>");           
+               
             }
             out.println("</table>");
             //link to blogpost

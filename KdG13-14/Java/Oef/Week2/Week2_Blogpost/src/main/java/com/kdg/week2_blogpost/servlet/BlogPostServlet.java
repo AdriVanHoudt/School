@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import javax.servlet.RequestDispatcher;
 
 /**
  * User: Adri
@@ -34,10 +35,10 @@ public class BlogPostServlet extends HttpServlet {
             blog.addPost(user,request.getParameter("jaar").toString() ,request.getParameter("specialiteit").toString(), request.getParameter("url").toString(), request.getParameter("omschrijving").toString());   
         }
         
-        response.sendRedirect("BlogListServlet");
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/BlogListServlet");
+        dispatcher.forward(request, response);
+        
+        
+        //response.sendRedirect("BlogListServlet");
     }
 }

@@ -3,6 +3,7 @@ package com.kdg.week2_blogpost.listener;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import com.kdg.week2_blogpost.model.Blog;
+import javax.servlet.RequestDispatcher;
 
 
 /**
@@ -14,7 +15,7 @@ public class ServletContextListener implements javax.servlet.ServletContextListe
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         ServletContext cntxt = servletContextEvent.getServletContext();
-
+       
         cntxt.setAttribute("blog", new Blog());
     }
 
