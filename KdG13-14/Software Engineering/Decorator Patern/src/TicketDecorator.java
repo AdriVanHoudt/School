@@ -10,7 +10,7 @@ abstract public class TicketDecorator extends Component{
         this.myTrailer = myComponent;
     }
 
-    public void callTraler() {
+    public void callTrailer() {
         if(myTrailer != null) myTrailer.prtTicket();
     }
 }

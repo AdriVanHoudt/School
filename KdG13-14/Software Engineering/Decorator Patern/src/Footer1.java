@@ -10,7 +10,7 @@ public class Footer1 extends TicketDecorator {
 
     @Override
     public void prtTicket() {
-        super.callTraler();
+        super.callTrailer();
         System.out.println("FOOTER1");
     }
 }

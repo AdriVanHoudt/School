@@ -11,6 +11,6 @@ public class Header1 extends TicketDecorator {
     @Override
     public void prtTicket() {
         System.out.println("HEADER1");
-        super.callTraler();
+        super.callTrailer();
     }
 }
