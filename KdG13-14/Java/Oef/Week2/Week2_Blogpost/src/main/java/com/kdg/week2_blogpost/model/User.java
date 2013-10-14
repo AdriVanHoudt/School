@@ -8,9 +8,13 @@ package com.kdg.week2_blogpost.model;
 public class User {
 
     private String username;
-
-    public User(String username) {
+    private String specialization;
+    private String year;
+    
+    public User(String username, String specialization, String year) {
         this.username = username;
+        this.specialization = specialization;
+        this.year = year;
     }
 
     public String getSpecialization() {
@@ -28,9 +32,6 @@ public class User {
     public void setYear(String year) {
         this.year = year;
     }
-
-    private String specialization;
-    private String year;
 
     public String getUsername() {
         return username;

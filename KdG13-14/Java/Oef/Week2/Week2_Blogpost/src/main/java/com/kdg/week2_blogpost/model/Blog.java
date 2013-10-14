@@ -19,9 +19,9 @@ public class Blog {
         this.users = new HashMap<>();
     }
     
-    public synchronized void addPost(User user, String year, String specialization, String url, String description){
+    public synchronized void addPost(User user, String url, String description){
         unique_counter++;
-        posts.put(unique_counter, new Post(unique_counter, user, year, specialization, url, description));
+        posts.put(unique_counter, new Post(unique_counter, user, url, description));
     }
 
      public boolean userExists(String username){

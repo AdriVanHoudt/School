@@ -23,22 +23,17 @@ public class BlogPostServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ServletContext cntxt = getServletContext();
-        User user = null;
 
         Blog blog = (Blog)cntxt.getAttribute("blog");
 
-        if(!blog.userExists(request.getParameter("name"))){
-            user = new User(request.getParameter("name"));
-            blog.addPost(user, request.getParameter("jaar").toString() ,request.getParameter("specialiteit").toString(), request.getParameter("url").toString(), request.getParameter("omschrijving").toString());
-        }else{
-            user = blog.getUser(request.getParameter("name"));
-            blog.addPost(user,request.getParameter("jaar").toString() ,request.getParameter("specialiteit").toString(), request.getParameter("url").toString(), request.getParameter("omschrijving").toString());   
-        }
+       
+        User user = (User) request.getSession().getAttribute("user");
+        blog.addPost(user, request.getParameter("url").toString(), request.getParameter("omschrijving").toString());
+
         
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/BlogListServlet");
-        dispatcher.forward(request, response);
+        //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/BlogListServlet");
+        //dispatcher.forward(request, response);
         
-        
-        //response.sendRedirect("BlogListServlet");
+        response.sendRedirect("BlogListServlet");
     }
 }

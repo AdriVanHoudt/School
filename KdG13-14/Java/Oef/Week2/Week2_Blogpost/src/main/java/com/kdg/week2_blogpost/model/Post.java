@@ -14,10 +14,10 @@ public class Post {
     private String url;
     private Blog blog;
 
-    public Post(int id, User user, String year, String specialization, String url, String description) {
+    public Post(int id, User user, String url, String description) {
         this.id = id;
-        this.year = year;
-        this.specialization = specialization;
+        this.year = user.getYear();
+        this.specialization = user.getSpecialization();
         this.url = url;
         this.description = description;
         this.user = user;
