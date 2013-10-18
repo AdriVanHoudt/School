@@ -1,6 +1,15 @@
+<%-- 
+    Document   : blogpost
+    Created on : Oct 18, 2013, 2:53:55 PM
+    Author     : Adri
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Karel De Grote Hogeschool - TI3 Weblog</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
     </head>
     <body>
         <h2>Toevoegen entry</h2>

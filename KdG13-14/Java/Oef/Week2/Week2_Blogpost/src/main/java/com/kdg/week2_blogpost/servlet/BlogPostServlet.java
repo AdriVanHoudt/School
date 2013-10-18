@@ -27,8 +27,8 @@ public class BlogPostServlet extends HttpServlet {
 
        
         User user = (User) request.getSession().getAttribute("user");
-        blog.addPost(user, request.getParameter("url").toString(), request.getParameter("omschrijving").toString());
-
+        int i = blog.addPost(user, request.getParameter("url").toString(), request.getParameter("omschrijving").toString());
+        request.getSession().setAttribute("postId", i);
         
         //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/BlogListServlet");
         //dispatcher.forward(request, response);

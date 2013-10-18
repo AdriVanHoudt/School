@@ -5,13 +5,7 @@
 package com.kdg.week2_blogpost.servlet;
 
 import com.kdg.week2_blogpost.model.Blog;
-import com.kdg.week2_blogpost.model.Post;
-import com.kdg.week2_blogpost.model.User;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Iterator;
-import java.util.Map;
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -39,6 +33,7 @@ public class BlogListServlet extends HttpServlet {
         Blog blog = (Blog) this.getServletContext().getAttribute("blog");
         request.setAttribute("posts", blog.getPosts());
         
+        request.getRequestDispatcher("bloglist.jsp").forward(request, response);
 //        ServletContext cntxt = this.getServletContext();
 //
 //        Blog blog = (Blog) cntxt.getAttribute("blog");

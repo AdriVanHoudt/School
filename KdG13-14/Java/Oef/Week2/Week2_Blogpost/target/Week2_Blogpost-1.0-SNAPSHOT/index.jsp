@@ -1,9 +1,17 @@
+<%-- 
+    Document   : index
+    Created on : Oct 18, 2013, 2:30:25 PM
+    Author     : Adri
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Karel De Grote Hogeschool - TI3 Weblog</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>logon</title>
     </head>
-    <body>
+     <body>
         <form action="LogonServlet" method="post">
             <table align="center" width="100%" cellspacing="2" cellpadding="2">
                 <tr>
