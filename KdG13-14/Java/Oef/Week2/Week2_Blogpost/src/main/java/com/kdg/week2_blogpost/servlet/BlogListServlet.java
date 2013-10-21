@@ -31,7 +31,7 @@ public class BlogListServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Blog blog = (Blog) this.getServletContext().getAttribute("blog");
-        request.setAttribute("posts", blog.getPosts());
+        request.setAttribute("posts", blog.getPosts().values());
         
         request.getRequestDispatcher("bloglist.jsp").forward(request, response);
 //        ServletContext cntxt = this.getServletContext();

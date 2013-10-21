@@ -15,6 +15,6 @@
     <body>
         <h1>Logoff</h1>
         <div>U was een fijne gebruiker</div>
-        <a href='logon.jsp'>Logon</a>
+        <a href='index.jsp'>Logon</a>
     </body>
 </html>

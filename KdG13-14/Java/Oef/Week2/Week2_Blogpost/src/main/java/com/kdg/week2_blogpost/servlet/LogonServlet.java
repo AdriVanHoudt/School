@@ -29,7 +29,7 @@ public class LogonServlet extends HttpServlet {
         
         request.getSession().setAttribute("user", user);
         
-        response.sendRedirect("blogpost.html");
+        response.sendRedirect("blogpost.jsp");
     }
 
 }

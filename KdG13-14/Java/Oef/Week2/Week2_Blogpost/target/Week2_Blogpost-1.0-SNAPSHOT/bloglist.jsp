@@ -16,15 +16,30 @@
     </head>
     <body>
         <h1><c:out value="${user.username}"/></h1>
-   
-        <table border="1">
+
+        <table>
             <c:forEach var="post" items="${posts}">
                 <c:if test="${post.id == postId}">
-                    
+                    <tr bgcolor="#FFE473">
+                        <td><c:out value="${post.user.username}"/></td>
+                        <td><c:out value="${post.year}"/></td>
+                        <td><c:out value="${post.specialization}"/></td>
+                        <td><c:out value="${post.description}"/></td>
+                        <td><c:out value="${post.url}"/></td>
+                    </tr>
                 </c:if>
-                
+                <c:if test="${post.id != postId}">
+                    <tr bgcolor="#FFFFF">
+                        <td><c:out value="${post.user.username}"/></td>
+                        <td><c:out value="${post.year}"/></td>
+                        <td><c:out value="${post.specialization}"/></td>
+                        <td><c:out value="${post.description}"/></td>
+                        <td><c:out value="${post.url}"/></td>
+                    </tr> 
+                </c:if>
             </c:forEach>
         </table>
-    
+        <a href='blogpost.jsp'>Add a new post</a>
+        <a href='LogOutServlet'>Log Out</a>
     </body>
 </html>
