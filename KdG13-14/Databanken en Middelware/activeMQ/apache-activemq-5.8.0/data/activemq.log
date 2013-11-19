@@ -1,40 +1,26 @@
-2013-10-04 08:59:06,882 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@10ed39f: startup date [Fri Oct 04 08:59:06 CEST 2013]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
-2013-10-04 08:59:08,719 | INFO  | PListStore:[C:\Users\adri\Documents\GitHub\School\KdG13-14\Databanken and Middelware\activeMQ\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
-2013-10-04 08:59:08,770 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\adri\Documents\GitHub\School\KdG13-14\Databanken and Middelware\activeMQ\apache-activemq-5.8.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
-2013-10-04 08:59:09,571 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:PlanetExpress-4481-1380869949289-0:1) is starting | org.apache.activemq.broker.BrokerService | main
-2013-10-04 08:59:09,666 | INFO  | Listening for connections at: tcp://PlanetExpress:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
-2013-10-04 08:59:09,667 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
-2013-10-04 08:59:09,671 | INFO  | Listening for connections at: amqp://PlanetExpress:5672?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
-2013-10-04 08:59:09,671 | INFO  | Connector amqp Started | org.apache.activemq.broker.TransportConnector | main
-2013-10-04 08:59:09,673 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:PlanetExpress-4481-1380869949289-0:1) started | org.apache.activemq.broker.BrokerService | main
-2013-10-04 08:59:09,673 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
-2013-10-04 08:59:10,584 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
-2013-10-04 08:59:10,920 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
-2013-10-04 08:59:11,169 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
-2013-10-04 08:59:11,703 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
-2013-10-04 09:36:07,311 | WARN  | Transport Connection to: tcp://127.0.0.1:5087 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5087@61616
-2013-10-04 09:37:02,061 | WARN  | Transport Connection to: tcp://127.0.0.1:5109 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5109@61616
-2013-10-04 09:37:16,782 | WARN  | Transport Connection to: tcp://127.0.0.1:5117 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5117@61616
-2013-10-04 09:43:22,688 | WARN  | Transport Connection to: tcp://127.0.0.1:5058 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5058@61616
-2013-10-04 09:43:24,220 | WARN  | Transport Connection to: tcp://127.0.0.1:5068 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5068@61616
-2013-10-04 09:43:38,041 | WARN  | Transport Connection to: tcp://127.0.0.1:5172 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5172@61616
-2013-10-04 09:44:05,410 | WARN  | Transport Connection to: tcp://127.0.0.1:5179 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5179@61616
-2013-10-04 09:45:54,782 | WARN  | Transport Connection to: tcp://127.0.0.1:5188 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5188@61616
-2013-10-04 09:45:54,793 | WARN  | Transport Connection to: tcp://127.0.0.1:5196 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5196@61616
-2013-10-04 09:51:40,379 | WARN  | Transport Connection to: tcp://127.0.0.1:5241 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5241@61616
-2013-10-04 09:51:40,384 | WARN  | Transport Connection to: tcp://127.0.0.1:5232 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5232@61616
-2013-10-04 10:02:21,003 | WARN  | Transport Connection to: tcp://127.0.0.1:5339 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5339@61616
-2013-10-04 10:02:22,857 | WARN  | Transport Connection to: tcp://127.0.0.1:5346 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5346@61616
-2013-10-04 10:02:30,266 | WARN  | Transport Connection to: tcp://127.0.0.1:5353 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5353@61616
-2013-10-04 10:18:56,304 | WARN  | Transport Connection to: tcp://127.0.0.1:5368 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5368@61616
-2013-10-04 10:45:25,072 | WARN  | Transport Connection to: tcp://127.0.0.1:5361 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5361@61616
-2013-10-04 10:45:25,075 | WARN  | Transport Connection to: tcp://127.0.0.1:5618 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:5618@61616
-2013-10-04 10:48:11,676 | WARN  | Transport Connection to: tcp://127.0.0.1:6333 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:6333@61616
-2013-10-04 10:48:25,310 | WARN  | Transport Connection to: tcp://127.0.0.1:6348 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:6348@61616
-2013-10-04 10:48:30,491 | WARN  | Transport Connection to: tcp://127.0.0.1:6355 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:6355@61616
-2013-10-04 10:48:37,264 | WARN  | Transport Connection to: tcp://127.0.0.1:6363 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:6363@61616
-2013-10-04 10:48:44,617 | WARN  | Transport Connection to: tcp://127.0.0.1:6371 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:6371@61616
-2013-10-04 11:11:28,992 | WARN  | Transport Connection to: tcp://127.0.0.1:6340 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:6340@61616
-2013-10-04 11:11:29,509 | WARN  | Transport Connection to: tcp://127.0.0.1:6385 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:6385@61616
-2013-10-04 12:12:56,098 | WARN  | Transport Connection to: tcp://127.0.0.1:7323 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:7323@61616
-2013-10-04 12:12:58,309 | WARN  | Transport Connection to: tcp://127.0.0.1:7307 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:7307@61616
+2013-11-07 14:31:11,502 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@10ed39f: startup date [Thu Nov 07 14:31:11 CET 2013]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2013-11-07 14:31:12,197 | INFO  | PListStore:[C:\Users\adri\Documents\GitHub\School\KdG13-14\Databanken en Middelware\activeMQ\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2013-11-07 14:31:12,217 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\adri\Documents\GitHub\School\KdG13-14\Databanken en Middelware\activeMQ\apache-activemq-5.8.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2013-11-07 14:31:12,611 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:PlanetExpress-1586-1383831072483-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2013-11-07 14:31:12,630 | INFO  | Listening for connections at: tcp://PlanetExpress:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2013-11-07 14:31:12,631 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2013-11-07 14:31:12,635 | INFO  | Listening for connections at: amqp://PlanetExpress:5672?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2013-11-07 14:31:12,635 | INFO  | Connector amqp Started | org.apache.activemq.broker.TransportConnector | main
+2013-11-07 14:31:12,637 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:PlanetExpress-1586-1383831072483-0:1) started | org.apache.activemq.broker.BrokerService | main
+2013-11-07 14:31:12,637 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2013-11-07 14:31:13,158 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
+2013-11-07 14:31:13,291 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
+2013-11-07 14:31:13,374 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2013-11-07 14:31:13,624 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2013-11-07 14:31:31,296 | INFO  | PListStore:[C:\Users\adri\Documents\GitHub\School\KdG13-14\Databanken en Middelware\activeMQ\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage] initialized | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ BrokerService.worker.1
+2013-11-09 21:03:23,371 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:PlanetExpress-1586-1383831072483-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-16
+2013-11-09 21:03:24,370 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2013-11-09 21:03:24,864 | INFO  | Connector amqp Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2013-11-09 21:03:26,765 | INFO  | PListStore:[C:\Users\adri\Documents\GitHub\School\KdG13-14\Databanken en Middelware\activeMQ\apache-activemq-5.8.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-16
+2013-11-09 21:03:26,765 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-11-09 21:03:26,765 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-11-09 21:03:26,766 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2013-11-09 21:03:27,494 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:PlanetExpress-1586-1383831072483-0:1) uptime 2 days 6 hours | org.apache.activemq.broker.BrokerService | Thread-16
+2013-11-09 21:03:27,495 | INFO  | Apache ActiveMQ 5.8.0 (localhost, ID:PlanetExpress-1586-1383831072483-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-16
+2013-11-09 21:03:27,495 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@10ed39f: startup date [Thu Nov 07 14:31:11 CET 2013]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-16
+2013-11-09 21:03:27,529 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-16
