@@ -1,0 +1,9 @@
+{
+	"name": "LinkedIn",
+	"description": "LinkedIn API test app",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "3.4.4"
+	}
+}

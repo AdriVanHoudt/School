@@ -11,4 +11,5 @@ package be.kdg.spring102;
 public interface Knight
 {
     public void embarkOnQuest();
+    public void death();       
 }

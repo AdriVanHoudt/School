@@ -20,5 +20,6 @@ public class TestKnights
         Knight knight = (Knight) context.getBean("knight");
         
         knight.embarkOnQuest();
+        knight.death();
     }
 }
