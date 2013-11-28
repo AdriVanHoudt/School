@@ -16,7 +16,7 @@
         </listener-class>
     </listener>
     
-    <filter>
+    <!--filter>
         <filter-name>LoggingFilter</filter-name>
         <filter-class>com.kdg.week2_blogpost.filter.LoggingFilter</filter-class>
     </filter>
@@ -24,6 +24,6 @@
     <filter-mapping>
         <filter-name>LoggingFilter</filter-name>
         <url-pattern>/*</url-pattern>
-    </filter-mapping>
+    </filter-mapping-->
 
 </web-app>

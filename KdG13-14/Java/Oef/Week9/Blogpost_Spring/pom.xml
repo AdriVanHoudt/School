@@ -2,14 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>be.kdg</groupId>
-    <artifactId>HelloWorld2</artifactId>
+    <artifactId>Blogpost_Spring</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>HelloWorld2</name>
+    <name>Blogpost_Spring</name>
     <url>http://maven.apache.org</url>
 
     <properties>
-        <spring.version>4.0.0.BUILD-SNAPSHOT</spring.version>
+        <spring.version>3.2.0.RELEASE</spring.version>
     </properties>
 
     <dependencies>
@@ -43,17 +43,6 @@
             <version>1.7.2</version>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>http://repo.spring.io/snapshot</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
     <build>
         <finalName>SpringApp</finalName>

@@ -1,5 +1,5 @@
 var express = require('express'),
-	linkedin_client = require('linkedin-js')('77ikwpe94m3mio', 'RIe4knr7CtCHgJOn', 'http://localhost:3000/auth'),
+	linkedin_client = require('linkedin-js-patched')('77ikwpe94m3mio', 'RIe4knr7CtCHgJOn', 'http://localhost:3000/auth'),
 	app = express(),
 	oath_token, oath_token_secret;
 
@@ -8,15 +8,12 @@ var express = require('express'),
 		secret: "RIe4knr7CtCHgJOn"
 	}));
 
-app.get('/hello.txt', function (req, res) {
-	res.send('Hello world');
-});
-
 app.get('/auth', function (req, res) {
 	linkedin_client.getAccessToken(req, res, function (error, token) {
-		console.log(error);
-		console.log(token);
-		//store tokens globaly
+		console.log("error: " + error);
+		console.log("token: " + token);
+		oath_token = token;
+		//store tokens globally
 		res.send(token);
 	});
 });
@@ -24,16 +21,21 @@ app.get('/auth', function (req, res) {
 app.get('/getProfile', function(req, res) {
 	linkedin_client.apiCall('GET', '/people/~',
 		{
-			token: {
+			/*token: {
 				oath_token_secret: req.session.token.oath_token_secret,
 				oath_token: req.session.token.oath_token
-			}
+			}*/
 		},
 		function (error, result) {
-			console.log(error);
+			console.log("error: " + error);
 			res.send(result);
 		}
 	);
+});
+
+app.post('/setToken', function(req, res) {
+	console.log(req.body.code);
+	
 });
 
 app.listen(3000);

@@ -67,16 +67,16 @@
       <file leaf-file-name="Wijn.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wijnen/Wijn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="50" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="765">
+            <state line="32" column="26" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WijnHuis.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WijnHuis.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wijnen/WijnHuis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="29" selection-start="986" selection-end="986" vertical-scroll-proportion="0.7681818" vertical-offset="156" max-vertical-offset="867">
+            <state line="11" column="12" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="DemoWijnen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DemoWijnen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1632">
+            <state line="42" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
@@ -94,16 +94,16 @@
       <file leaf-file-name="Likeur.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wijnen/Likeur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="44" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="697">
+            <state line="12" column="95" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Champagne.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Champagne.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wijnen/Champagne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="23" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="680">
+            <state line="27" column="23" selection-start="576" selection-end="576" vertical-scroll-proportion="0.5337209" vertical-offset="0" max-vertical-offset="860">
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="Smaak.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wijnen/Smaak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="15" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -168,7 +168,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,7 +221,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,41 +490,43 @@
       <created>1385065699303</created>
       <updated>1385065699303</updated>
       <workItem from="1385065660847" duration="5791000" />
+      <workItem from="1385118421850" duration="3531000" />
+      <workItem from="1385635079046" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5791000" />
+    <option name="totallyTimeSpent" value="9362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26837417" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26837417" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2173913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -550,6 +552,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Wijn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="26" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/WijnHuis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DemoWijnen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Likeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="95" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Champagne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Smaak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Wijn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="50" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/WijnHuis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="29" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DemoWijnen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Likeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Champagne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Smaak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/wijnen/Wijn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
@@ -669,37 +755,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wijnen/Likeur.java">
+    <entry file="file://$PROJECT_DIR$/src/wijnen/WijnHuis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wijnen/Wijn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="50" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wijnen/Champagne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="680">
+        <state line="11" column="12" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DemoWijnen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1632">
+        <state line="42" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wijnen/WijnHuis.java">
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Wijn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="29" selection-start="986" selection-end="986" vertical-scroll-proportion="0.7681818" vertical-offset="156" max-vertical-offset="867">
+        <state line="32" column="26" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Likeur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="95" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wijnen/Champagne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="576" selection-end="576" vertical-scroll-proportion="0.5337209" vertical-offset="0" max-vertical-offset="860">
           <folding />
         </state>
       </provider>
