@@ -2,79 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="d571d656-8e4e-4198-9ddd-2eb0387c1c00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/HelloApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/libraries/Maven__org_springframework_spring_aop_3_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/libraries/Maven__org_springframework_spring_asm_3_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/libraries/Maven__org_springframework_spring_beans_3_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/libraries/Maven__org_springframework_spring_context_3_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/libraries/Maven__org_springframework_spring_core_3_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/libraries/Maven__org_springframework_spring_expression_3_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Week2/Week2_Blogpost/Week2_Blogpost.iml" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloWorld2\HelloWorld2.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloWorld2\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\lib\linkedin_client.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\Makefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\debian\changelog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\debian\compat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\debian\control" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\debian\copyright" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\debian\dirs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\debian\install" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\debian\rules" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\debian\source\format" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\examples\term.ie.oauth-HMAC-SHA1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\examples\term.ie.oauth-PLAINTEXT.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\lib\oauth.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\lib\oauth.js.orig" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\lib\oauth2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\lib\sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\tests\oauth.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\tests\oauth2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\node_modules\oauth\tests\sha1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\NodeJS\LinkedIn Express\node_modules\linkedin-js\tests\linkedin_test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring101/target/test-classes/be/kdg/spring101/AppTest.class" afterPath="$PROJECT_DIR$/../../Spring101/target/test-classes/be/kdg/spring101/AppTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/BraveKnight.class" afterPath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/BraveKnight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Knight.class" afterPath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Knight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Minstrel.class" afterPath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Minstrel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Quest.class" afterPath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Quest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/SavingThePrincessQuest.class" afterPath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/SavingThePrincessQuest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/SlayDragonQuest.class" afterPath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/SlayDragonQuest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/TestKnights.class" afterPath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/TestKnights.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Post.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spring102/Spring102.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/app-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nb-configuration.xml" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_core_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\java\be\kdg\HelloApp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\java\be\kdg\HelloService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\resources\spring-config.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_aop_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_beans_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_3_RELEASE.xml" />
+      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_web_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_3_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.svn/wc.db" afterPath="$PROJECT_DIR$/../../.svn/wc.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../NodeJS/LinkedIn Express/node_modules/express/node_modules/connect/lib/public/directory.html" afterPath="$PROJECT_DIR$/../../../../NodeJS/LinkedIn Express/node_modules/express/node_modules/connect/lib/public/directory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../NodeJS/LinkedIn Express/package.json" afterPath="$PROJECT_DIR$/../../../../NodeJS/LinkedIn Express/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../NodeJS/LinkedIn Express/server.js" afterPath="$PROJECT_DIR$/../../../../NodeJS/LinkedIn Express/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week2/Week2_Blogpost/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../../Week2/Week2_Blogpost/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Week8/HelloWorld2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../Peer Tutoring/peerP2W2opgave/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../Peer Tutoring/peerP2W2opgave/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blogpost_Spring.iml" afterPath="$PROJECT_DIR$/Blogpost_Spring.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/Knight.java" afterPath="$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/Knight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java" afterPath="$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java" afterPath="$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Blogpost_Spring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,7 +58,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -128,6 +94,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -137,10 +104,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <file leaf-file-name="app-context.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/app-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="60" selection-start="567" selection-end="567" vertical-scroll-proportion="0.1329609" vertical-offset="0" max-vertical-offset="895">
+            <state line="20" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nb-configuration.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nb-configuration.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BraveKnight.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/BraveKnight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="202" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="46" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestKnights.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBlog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="46" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringAppTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blogpost_Spring.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blogpost_Spring.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="748">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -156,18 +204,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/be.kdg/kdg/week2_blogpost/model/Blog.java" />
+        <option value="$PROJECT_DIR$/../../Spring102/nb-configuration.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/be/kdg/week2_blogpost/model/Blog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java" />
+        <option value="$PROJECT_DIR$/src/nb-configuration.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -195,13 +273,89 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Blogpost_Spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogpost_Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring102" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogpost_Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring102" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogpost_Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring102" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogpost_Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring102" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring102" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -225,18 +379,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kdg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,13 +426,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kdg" />
+              <option name="myItemId" value="blogpost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogpost_Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogpost_Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogpost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogpost_Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogpost_Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogpost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,12 +504,59 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="options.splitter.main.proportions" value="0.30042553" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38903394" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/exceptions/exceptions" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/be/kdg/blogpost" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.AppTests">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src" />
+      <recent name="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="be.kdg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\resources" />
+      <recent name="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\resources\be.kdg.spring" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestBlog">
+    <configuration default="false" name="TestBlog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="be.kdg.blogpost.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="be.kdg.blogpost.TestBlog" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Blogpost_Spring" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -519,10 +768,16 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.HelloApp" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AppTests" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestBlog" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestBlog" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -548,47 +803,72 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring102" />
+          <option name="myCopyRoot" value="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring102" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring102" />
+          <option name="myCopyRoot" value="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring102" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d571d656-8e4e-4198-9ddd-2eb0387c1c00" name="Default" comment="" />
       <created>1385641981398</created>
       <updated>1385641981398</updated>
-      <workItem from="1385641986243" duration="129000" />
+      <workItem from="1385641986243" duration="629000" />
+      <workItem from="1385642620351" duration="3910000" />
+      <workItem from="1385646540679" duration="4825000" />
+      <workItem from="1385652232753" duration="1164000" />
+      <workItem from="1385710560180" duration="196000" />
+      <workItem from="1386066672873" duration="90000" />
+      <workItem from="1386066882101" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129000" />
+    <option name="totallyTimeSpent" value="10906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="960" y="0" width="960" height="1050" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278867" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11953042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28619152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29822618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -609,14 +889,444 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="60" selection-start="567" selection-end="567" vertical-scroll-proportion="0.1329609" vertical-offset="0" max-vertical-offset="895">
+        <state line="8" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nb-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/BraveKnight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="202" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="46" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blogpost_Spring.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nb-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/BraveKnight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="202" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="46" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blogpost_Spring.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nb-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/BraveKnight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="202" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="43" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="46" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blogpost_Spring.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="41" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="103" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="299" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/nb-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/resources/be/kdg/spring/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.43705037" vertical-offset="243" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="14" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/BraveKnight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="202" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="46" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blogpost_Spring.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nb-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38903394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (Blogpost_Spring)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38903394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hibernate-4.2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38903394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|Blogpost_Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38903394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.slf4j:slf4j-log4j12:1.7.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38903394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
