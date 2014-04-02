@@ -1,0 +1,102 @@
+package be.kdg.repaircafe.beans;
+
+import be.kdg.repaircafemodel.dom.users.Client;
+import be.kdg.repaircafemodel.service.api.UserService;
+import be.kdg.repaircafemodel.service.exceptions.UserServiceException;
+import java.io.Serializable;
+import javax.annotation.PostConstruct;
+import javax.servlet.http.HttpSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component("userBean")
+@Scope("session")
+public class UserBean implements Serializable {
+
+    @Autowired
+    private UserService userService;
+
+    private String username;
+    private String password;
+
+    private Boolean isClient;
+    private Boolean loggedIn;
+
+    public String checkCredentials() {
+        try {
+            // check login
+            System.out.println("Checking login");
+            userService.checkLogin(username, password);
+            System.out.println("Login passed");
+
+            //set user in session
+            System.out.println("Setting username in session");
+            HttpSession session = UtilBean.getSession();
+            System.out.println("Got session in userbean");
+            session.setAttribute("username", username);
+            System.out.println("Username set " + username);
+            isClient = userService.getUser(username) instanceof Client;
+
+            loggedIn = true;
+            // on succes
+            return "profile";
+        } catch (UserServiceException ex) {
+            loggedIn = false;
+            System.out.println("FAIL @userBean checkCredentials " + ex.getMessage());
+            return "index";
+        }
+    }
+
+    public String logout() {
+        System.out.println("trying to boom");
+        try {
+            UtilBean.boomSession();
+            loggedIn = false;
+            return "index";
+        } catch (Exception ex) {
+            System.out.println("FAIL @userBean logout " + ex.getMessage());
+        }
+        System.out.println("nope");
+        return "profile";
+    }
+    
+    @PostConstruct
+    public void init(){
+        loggedIn = false;
+        System.out.println("logged in is now " + loggedIn);
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Boolean isIsClient() {
+        return isClient;
+    }
+
+    public void setIsClient(Boolean isClient) {
+        this.isClient = isClient;
+    }
+
+    public Boolean isLoggedIn() {
+        return loggedIn;
+    }
+
+    public void setLoggedIn(Boolean loggedIn) {
+        this.loggedIn = loggedIn;
+    }
+
+}

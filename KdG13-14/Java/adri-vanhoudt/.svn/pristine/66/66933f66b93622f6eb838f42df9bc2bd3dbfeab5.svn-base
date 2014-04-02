@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:head>
+        <title>Client Dashboard - Repair Cafe</title>
+        <h:outputStylesheet library="css" name="main.css" />
+    </h:head>
+    <h:body>
+        <ui:include src="/navbar.xhtml" />
+
+        <!--    2 panels
+                2 datatables
+                show all responding repairs 
+                2 panels - 1 search; 1 results  -->
+
+        <!--     Open repairs    -->
+        <h:form>
+            <p:panel header="#{msg.openRepairsHeader}" rendered="#{userBean.isIsClient()}">
+                <p:dataTable id="openRepairsTable" var="repair" value="#{clientdashBean.openRepairs}" rowKey="#{repair.repairId}" selection="#{clientdashBean.selectedOpenRepair}" selectionMode="single">
+
+                    <!--    onRowSelect update selection and update details -->
+                    <p:ajax event="rowSelect" update="openRepairsTable" />
+
+                    <p:column>
+                        <p:rowToggler />
+                    </p:column>
+
+                    <p:column headerText="Name">#{repair.item.productName}</p:column>
+
+                    <p:column headerText="Brand">#{repair.item.brand}</p:column>
+
+                    <p:column headerText="Category">#{repair.item.category}</p:column>
+
+                    <p:column headerText="Defect">#{repair.details.defect}</p:column>
+
+                    <p:column headerText="Description">#{repair.details.description}</p:column>
+
+                    <p:column headerText="Days left">#{repair.details.daysLeft()}</p:column>
+                    
+                    <p:column headerText="Assigned to">#{repair.repairer}</p:column>
+
+                    <!--    Details panel   -->
+                    <p:rowExpansion>
+                        <p:dataTable id="openRepairDetailsTable" var="repairBid" value="#{repair.bids}" rowKey="#{repairBid.bidId}">
+
+                            <p:column headerText="Date">#{repairBid.timestamp.toDate()}</p:column>
+
+                            <p:column headerText="Price">#{repairBid.price}</p:column>
+
+                            <p:column headerText="Comment">#{repairBid.comment}</p:column>   
+
+                            <p:column headerText="Price">#{repairBid.price}</p:column>
+
+                        </p:dataTable>
+                    </p:rowExpansion>
+
+                </p:dataTable>
+            </p:panel>
+        </h:form>
+
+        <!--    Closed Repairs  -->
+        <h:form>
+            <p:panel header="#{msg.closedRepairsHeader}" rendered="#{userBean.isIsClient()}">
+                <p:dataTable id="closedRepairsTable" var="repair" value="#{clientdashBean.closedRepairs}" rowKey="#{repair.repairId}">
+                    
+                    <p:column headerText="Name">#{repair.item.productName}</p:column>
+
+                    <p:column headerText="Brand">#{repair.item.brand}</p:column>
+
+                    <p:column headerText="Category">#{repair.item.category}</p:column>
+
+                    <p:column headerText="Defect">#{repair.details.defect}</p:column>
+
+                    <p:column headerText="Description">#{repair.details.description}</p:column>
+
+                    <p:column headerText="Days left">#{repair.details.daysLeft()}</p:column>
+                    
+                    <p:column headerText="Status">#{repair.details.status}</p:column>
+                    
+                    <p:column headerText="Rating">#{repair.details.rating}</p:column>
+
+                </p:dataTable>
+            </p:panel>
+        </h:form>
+
+    </h:body>
+</html>

@@ -1,0 +1,104 @@
+package be.kdg.repaircafe.beans;
+
+import be.kdg.repaircafemodel.dom.repairs.Item;
+import be.kdg.repaircafemodel.dom.repairs.Repair;
+import be.kdg.repaircafemodel.dom.repairs.RepairDetails;
+import be.kdg.repaircafemodel.dom.repairs.RepairDetails.PriceModel;
+import be.kdg.repaircafemodel.dom.users.Client;
+import be.kdg.repaircafemodel.service.api.RepairService;
+import org.joda.time.DateTime;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+/**
+ *
+ * @author Adri
+ */
+@Component("newRepairBean")
+@Scope("session")
+public class NewRepairBean {
+
+    @Autowired
+    private RepairService repairService;
+
+    // Repair details
+    private String defect;
+    private String description;
+    private PriceModel priceModel;
+    private DateTime dueDate;
+
+    // Item
+    private String productName;
+    private String brand;
+    private String category;
+
+    public void addNewRepair() {
+            // make repair
+            Item itemTemp = new Item(productName, brand, category);
+            RepairDetails repairDetailsTemp = new RepairDetails(defect, description, priceModel, dueDate);
+            Repair repairTemp = new Repair(itemTemp, repairDetailsTemp);
+            
+            // get the client which is the current user
+            UtilBean u = new UtilBean();
+            Client c = (Client) u.getUser();
+            repairService.submitRepair(c, repairTemp);
+    }
+
+    public String getDefect() {
+        return defect;
+    }
+
+    public void setDefect(String defect) {
+        this.defect = defect;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public PriceModel getPriceModel() {
+        return priceModel;
+    }
+
+    public void setPriceModel(PriceModel priceModel) {
+        this.priceModel = priceModel;
+    }
+
+    public DateTime getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(DateTime dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+}

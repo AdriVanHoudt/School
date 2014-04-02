@@ -1,0 +1,64 @@
+#loginbox{
+    background-color: aliceblue; 
+    border: solid 1px; 
+    width:70%; 
+    margin:auto; 
+    padding: 1%;
+}
+
+small{
+    display: inline-block;
+    width: 70%;
+}
+
+.mybutton{
+    background-color: white;
+    color: white;
+    padding: 1% 5% 1% 5%;
+    width:100%;
+}
+
+.ui-panel{
+    font-size: 90%;
+    background-color: white; 
+    width:auto;
+    margin:auto;
+    padding: 0px !important;
+}
+
+.ui-panel .ui-panel-titlebar{
+    background-color:lightgrey;
+    color: #000000;
+}
+
+.menuItem{
+    margin-top: 3px !important;
+    margin-left: 0px !important;
+}
+
+.ui-menu.ui-widget .ui-menuitem-link .ui-menuitem-text{
+     margin: 5px !important;
+}
+
+.ui-menu.ui-widget li > .ui-menuitem-link.ui-state-hover{
+    background-color: lightgrey !important;
+    background-image: none;
+    color: black;
+}
+
+li:hover a:hover{
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-radius: 5px 5px 5px 5px !important;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.ui-widget-content{
+    border: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+}

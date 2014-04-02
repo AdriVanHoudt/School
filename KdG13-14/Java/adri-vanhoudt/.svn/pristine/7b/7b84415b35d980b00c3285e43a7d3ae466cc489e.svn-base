@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Repair Cafe</title>
+        <h:outputStylesheet library="css" name="main.css" />        
+    </h:head>
+    <h:body>
+        <h:graphicImage library="images" name="repaircafe_logo.png" />
+        <p:panel header="#{msg.indexHeader}" footer="&copy;Repair Cafe 2013">                    
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel for="username" value="#{msg.indexUsername}" />
+                    <h:inputText id="username" value="#{userBean.username}"/>
+                    <h:outputLabel for="password" value="#{msg.indexPassword}" />
+                    <h:inputSecret id="password" value="#{userBean.password}"/>
+                    <p:commandButton styleClass="mybutton" value="#{msg.indexSignInButtton}" action="#{userBean.checkCredentials()}" />
+                    <h:link value="#{msg.indexRegister}" outcome="register" />
+                </h:panelGrid>  
+            </h:form>                  
+            <small>Tip: Client: jan.peeters@student.kdg.be, password: jan</small>
+            <small>Tip: Repairer: wouter.deketelaere@kdg.be, password: wouter</small>        
+        </p:panel>
+    </h:body>
+</html>
+

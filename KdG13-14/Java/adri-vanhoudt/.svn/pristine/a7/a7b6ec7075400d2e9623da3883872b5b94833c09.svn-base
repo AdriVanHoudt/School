@@ -1,0 +1,72 @@
+package be.kdg.repaircafe.beans;
+
+import be.kdg.repaircafemodel.dom.repairs.Repair;
+import be.kdg.repaircafemodel.service.api.RepairService;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import javax.annotation.PostConstruct;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+/**
+ *
+ * @author Adri
+ */
+@Component("clientdashBean")
+@Scope("session")
+public class ClientDashBean implements Serializable{
+    
+    @Autowired
+    RepairService repairService;
+    
+    private List<Repair> openRepairs;
+    private List<Repair> closedRepairs;
+    
+    private Repair selectedOpenRepair;
+    
+    private int daysLeft;
+    
+    @PostConstruct
+    public void init() {
+        this.openRepairs = new ArrayList<> ();
+        this.closedRepairs = new ArrayList<>();
+        
+        this.openRepairs    =   repairService.findAllOpenRepairs();
+        this.closedRepairs  =   repairService.findAllClosedRepairs();
+    }
+
+    public List<Repair> getOpenRepairs() {
+        return openRepairs;
+    }
+
+    public void setOpenRepairs(List<Repair> openRepairs) {
+        this.openRepairs = openRepairs;
+    }
+
+    public List<Repair> getClosedRepairs() {
+        return closedRepairs;
+    }
+
+    public void setClosedRepairs(List<Repair> closedRepairs) {
+        this.closedRepairs = closedRepairs;
+    }
+
+    public Repair getSelectedOpenRepair() {
+        return selectedOpenRepair;
+    }
+
+    public void setSelectedOpenRepair(Repair selectedOpenRepair) {
+        this.selectedOpenRepair = selectedOpenRepair;
+    }
+
+    public int getDaysLeft() {
+        return daysLeft;
+    }
+
+    public void setDaysLeft(int daysLeft) {
+        this.daysLeft = daysLeft;
+    }
+    
+}

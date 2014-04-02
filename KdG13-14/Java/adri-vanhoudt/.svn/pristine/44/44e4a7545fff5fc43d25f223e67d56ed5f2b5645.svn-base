@@ -1,0 +1,76 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package be.kdg.repaircafe.beans;
+
+import be.kdg.repaircafemodel.TestRepairCafe;
+import be.kdg.repaircafemodel.dom.repairs.Item;
+import be.kdg.repaircafemodel.dom.repairs.Repair;
+import be.kdg.repaircafemodel.dom.repairs.RepairDetails;
+import be.kdg.repaircafemodel.dom.users.Address;
+import be.kdg.repaircafemodel.dom.users.Client;
+import be.kdg.repaircafemodel.dom.users.Person;
+import be.kdg.repaircafemodel.dom.users.Repairer;
+import be.kdg.repaircafemodel.service.api.RepairService;
+import be.kdg.repaircafemodel.service.api.UserService;
+import be.kdg.repaircafemodel.service.exceptions.UserServiceException;
+import java.io.Serializable;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.annotation.PostConstruct;
+import org.joda.time.DateTime;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component("userBean")
+@Scope("session")
+public class UserBean implements Serializable {
+
+    @Autowired
+    private UserService userService;
+    
+    private String username;
+    private String password;
+
+    public String checkCredentials() {
+        try {
+            // chack login
+            userService.checkLogin(username, password);
+
+            //set user in session
+            UtilBean.getSession().setAttribute("username", username);
+            System.out.println("logged " + username);
+
+            // on succes
+            return "profile";
+        } catch (UserServiceException ex) {
+            System.out.println(ex.getMessage());
+            return "index";
+        }
+    }
+
+    public String logout() {
+        System.out.println("trying to boom");
+        return UtilBean.boomSession();
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+}

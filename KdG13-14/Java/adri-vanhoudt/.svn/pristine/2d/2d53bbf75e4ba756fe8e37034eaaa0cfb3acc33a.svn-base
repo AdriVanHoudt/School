@@ -1,0 +1,37 @@
+# To change this license header, choose License Headers in Project Properties.
+# To change this template file, choose Tools | Templates
+# and open the template in the editor.
+
+indexHeader=Gelieve u aan te melden
+indexUsername=Gebruikersnaam: 
+indexPassword=Wachtwoord: 
+indexSignInButtton=Aanmelden
+indexRegister=Registreren
+indexSingInButtton=Aanmelden
+formFirstname=Voornaam: 
+formLastName=Achternaam: 
+formStreet=Straat: 
+formNr=Nr: 
+formZip=Zipcode: 
+formCity=Gemeente: 
+profileUpdateButton=Update
+formOldPassword=Oud Wachtwoord: 
+formNewPassword=Nieuw Wachtwoord: 
+profileUpdatePassword=Update Wachtwoord
+newRepairHeader=Voeg een nieuwe reparatie toe
+formProductname=Produktnaam: 
+formBrand=Merk: 
+formCategory=kategorie: 
+formDefect=Defect: 
+formDescription=Omschrijving: 
+formPriceModel=Prijs Model: 
+formDueDate=Vervaldag: 
+newRepairButton=Voeg toe
+searchHeader=Zoek naar open reparatie
+searchRepairButton=Zoek
+searchHeaderResult=Resultaten
+saveRepairButton=Reparaties opslaan voor later
+searchHeaderSavedRepairs=Opgeslagen reparaties
+bidRepairButton=Bied
+openRepairsHeader=Open Reparaties
+closedRepairsHeader=Gesloten Reparaties

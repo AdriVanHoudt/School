@@ -1,0 +1,91 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package be.kdg.repaircafe.beans;
+
+import be.kdg.repaircafemodel.dom.users.Person;
+import be.kdg.repaircafemodel.dom.users.User;
+import be.kdg.repaircafemodel.service.api.UserService;
+import be.kdg.repaircafemodel.service.exceptions.UserServiceException;
+import java.io.Serializable;
+import javax.annotation.PostConstruct;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+/**
+ *
+ * @author Adri
+ */
+@Component("profileBean")
+@Scope("session")
+public class ProfileBean implements Serializable {
+
+    @Autowired
+    private UserService userService;
+
+    private User user;
+    
+    private String old_password;
+    private String new_password;
+
+    @PostConstruct
+    public void init() {
+        try {
+            this.user = userService.getUser(getUserName());
+            System.out.println("username " + this.user.getUsername());
+        } catch (UserServiceException e) {
+            System.out.println("FAIL " + e);
+        } catch (Exception ex) {
+            System.out.println("FAIL " + ex);
+        }
+    }
+
+    private String getUserName() {
+        //set user in session
+        UtilBean u = new UtilBean();
+        String temp = (String) u.getSession().getAttribute("username");
+        System.out.println("got " + temp);
+        return temp;
+    }
+
+    public String updateUser() {
+        try {
+            if (!new_password.isEmpty()){
+                user.changePassword(old_password, new_password);
+            }        
+            Person person = new Person(user.getPerson().getFirstname(), user.getPerson().getLastname(), user.getPerson().getAddress());          
+            userService.updateUser(user, person);
+        } catch (UserServiceException ex) {
+            System.out.println("FAIL " + ex);
+        }
+        return "profile.xhtml";
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public String getOld_password() {
+        return old_password;
+    }
+
+    public void setOld_password(String old_password) {
+        this.old_password = old_password;
+    }
+
+    public String getNew_password() {
+        return new_password;
+    }
+
+    public void setNew_password(String new_password) {
+        this.new_password = new_password;
+    }
+
+}

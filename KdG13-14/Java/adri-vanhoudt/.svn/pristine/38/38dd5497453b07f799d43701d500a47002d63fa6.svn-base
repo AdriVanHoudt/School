@@ -1,0 +1,54 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package be.kdg.repaircafe.beans;
+
+import be.kdg.repaircafemodel.dom.users.User;
+import be.kdg.repaircafemodel.service.api.UserService;
+import be.kdg.repaircafemodel.service.exceptions.UserServiceException;
+import java.io.Serializable;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+/**
+ *
+ * @author Adri
+ */
+@Component("utilBean")
+public class UtilBean implements Serializable {
+
+    @Autowired
+    private UserService userService;
+
+    public static HttpSession getSession() {
+        FacesContext context = FacesContext.getCurrentInstance();
+        HttpServletRequest req = (HttpServletRequest) context.getExternalContext().getRequest();
+        return req.getSession(false);
+    }
+
+    public static String boomSession() {
+        try {
+            getSession().invalidate();
+            System.out.println("Session went BOOM!");
+        } catch (Exception ex) {
+            System.out.println("FAIL" + ex.getMessage());
+        }
+
+        return "/index";
+    }
+
+    public User getUser() throws UserServiceException {       
+            //set user in session
+            String temp = (String) UtilBean.getSession().getAttribute("username");
+            System.out.println("got " + temp);
+
+            return userService.getUser(temp);
+    }
+}

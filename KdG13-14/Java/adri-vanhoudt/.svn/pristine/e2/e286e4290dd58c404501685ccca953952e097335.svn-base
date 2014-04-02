@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package be.kdg.repaircafe.beans;
+
+import java.io.Serializable;
+import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import org.springframework.stereotype.Component;
+
+/**
+ *
+ * @author Adri
+ */
+@Component("utilBean")
+public class UtilBean implements Serializable {
+
+    public HttpSession getSession() {
+        FacesContext context = FacesContext.getCurrentInstance();
+        HttpServletRequest req = (HttpServletRequest) context.getExternalContext().getRequest();
+        return req.getSession(false);
+    }
+    
+    public void boomSession() {
+        getSession().invalidate();
+        System.out.println("Session went BOOM!");
+    }
+}

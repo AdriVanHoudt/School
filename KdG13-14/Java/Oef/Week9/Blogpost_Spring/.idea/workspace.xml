@@ -2,44 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="d571d656-8e4e-4198-9ddd-2eb0387c1c00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/impl/BlogImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_BUILD_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Post.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Spring102/Spring102.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/TestBlog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/app-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nb-configuration.xml" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_core_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\java\be\kdg\HelloApp.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\java\be\kdg\HelloService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\src\main\resources\spring-config.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_aop_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_beans_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_test_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_3_RELEASE.xml" />
-      <change type="MOVED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week9\Blogpost_Spring\.idea\libraries\Maven__org_springframework_spring_web_3_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_3_RELEASE.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/nb-configuration.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/Spring101-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring/app-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring/app-context_bis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/BraveKnight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Knight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Minstrel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/Quest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/SavingThePrincessQuest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/SlayDragonQuest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/classes/be/kdg/spring101/TestKnights.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring101/target/test-classes/be/kdg/spring101/AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring102\nb-configuration.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\java\be\kdg\springjsfrest\controller\DomoticaBean.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\java\be\kdg\springjsfrest\controller\DomoticaController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\java\be\kdg\springjsfrest\controller\json\CustomDateSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\java\be\kdg\springjsfrest\model\Meting.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\java\be\kdg\springjsfrest\service\api\DomoticaService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\java\be\kdg\springjsfrest\service\impl\DomoticaServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\webapp\WEB-INF\applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\webapp\WEB-INF\dispatcher-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\webapp\WEB-INF\faces-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\webapp\WEB-INF\jsp\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\src\main\webapp\redirect.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\classes\be\kdg\springjsfrest\controller\DomoticaBean.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\classes\be\kdg\springjsfrest\controller\DomoticaController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\classes\be\kdg\springjsfrest\controller\json\CustomDateSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\classes\be\kdg\springjsfrest\model\Meting.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\classes\be\kdg\springjsfrest\service\api\DomoticaService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\classes\be\kdg\springjsfrest\service\impl\DomoticaServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\dispatcher-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\faces-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\jsp\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\antlr-2.7.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\commons-beanutils-1.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\commons-collections-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\commons-digester-1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\commons-fileupload-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\commons-lang-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\commons-validator-1.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\el-api-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\el-impl-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\jackson-asl-0.9.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\jackson-core-asl-1.9.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\jackson-mapper-asl-1.9.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\joda-time-2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\jstl-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\oro-2.0.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\primefaces-3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-aop-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-asm-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-aspects-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-beans-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-context-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-context-support-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-core-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-expression-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-instrument-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-instrument-tomcat-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-jdbc-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-jms-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-orm-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-oxm-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-struts-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-test-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-tx-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-web-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-webmvc-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\spring-webmvc-portlet-3.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\struts-1.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\xalan-2.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\lib\xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\domotica.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\SpringJSFREST-1.0-SNAPSHOT\redirect.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\classes\be\kdg\springjsfrest\controller\DomoticaBean.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\classes\be\kdg\springjsfrest\controller\DomoticaController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\classes\be\kdg\springjsfrest\controller\json\CustomDateSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\classes\be\kdg\springjsfrest\model\Meting.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\classes\be\kdg\springjsfrest\service\api\DomoticaService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Spring104\target\classes\be\kdg\springjsfrest\service\impl\DomoticaServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\HelloSpring-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\classes\be\kdg\hellospring\App.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\classes\be\kdg\hellospring\Hello.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\classes\be\kdg\hellospring\HelloSpring.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\classes\be\kdg\spring\app-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\surefire-reports\TEST-com.kdg.hellospring.AppTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\surefire-reports\com.kdg.hellospring.AppTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\adri\Documents\GitHub\School\KdG13-14\Java\Oef\Week8\HelloSpring\target\test-classes\com\kdg\hellospring\AppTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.svn/wc.db" afterPath="$PROJECT_DIR$/../../.svn/wc.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blogpost_Spring.iml" afterPath="$PROJECT_DIR$/Blogpost_Spring.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/Knight.java" afterPath="$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/Knight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java" afterPath="$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java" afterPath="$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/TestKnights.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring104/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../../Spring104/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring104/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../../Spring104/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Blogpost_Spring.iws" />
@@ -261,7 +326,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -272,228 +337,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring102" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring102" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring102" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spring102" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring102" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogpost" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogpost" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blogpost_Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogpost" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -511,7 +355,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38903394" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/exceptions/exceptions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../adri-vanhoudt/trunk/RepairCafe_0086188-52" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/be/kdg/blogpost" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -833,11 +677,16 @@
       <workItem from="1385710560180" duration="196000" />
       <workItem from="1386066672873" duration="90000" />
       <workItem from="1386066882101" duration="92000" />
+      <workItem from="1386241857433" duration="606000" />
+      <workItem from="1386244804581" duration="589000" />
+      <workItem from="1387448005081" duration="22000" />
+      <workItem from="1387448185279" duration="74000" />
+      <workItem from="1387449980305" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10906000" />
+    <option name="totallyTimeSpent" value="12249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1050" extended-state="0" />
@@ -861,9 +710,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28619152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29822618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32897604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1146,32 +995,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Spring102/nb-configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/resources/be/kdg/spring/app-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="20" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Post.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Spring102/src/main/java/be/kdg/spring102/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="10" column="17" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/kdg/blogpost/model/Blog.java">
@@ -1183,9 +1019,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Spring102/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.43705037" vertical-offset="243" max-vertical-offset="799">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.43705037" vertical-offset="243" max-vertical-offset="799" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/be/kdg/SpringAppTests.java">

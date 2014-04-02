@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+    <application>
+        <el-resolver>
+            org.springframework.web.jsf.el.SpringBeanFacesELResolver
+        </el-resolver>
+        <resource-bundle>
+            <locale-config>
+                <default-locale>en_US</default-locale>
+            </locale-config>
+            <base-name>be.kdg.i18n.messages</base-name>
+            <var>msg</var>
+        </resource-bundle>
+    </application>
+    
+    <!--     Algemene navigatieregels -->    
+    
+    <navigation-rule>
+        <navigation-case>
+            <from-outcome>login</from-outcome>
+            <to-view-id>/welcome.xhtml</to-view-id>
+            <redirect />
+        </navigation-case> 
+        <navigation-case>
+            <from-outcome>profile</from-outcome>
+            <to-view-id>/profile.xhtml</to-view-id>
+            <redirect />
+        </navigation-case>   
+        <navigation-case>
+            <from-outcome>newrepair</from-outcome>
+            <to-view-id>/newrepair.xhtml</to-view-id>
+            <redirect />
+        </navigation-case>          
+    </navigation-rule>    
+    
+</faces-config>

@@ -1,0 +1,32 @@
+#loginbox{
+    background-color: aliceblue; 
+    border: solid 1px; 
+    width:70%; 
+    margin:auto; 
+    padding: 1%;
+}
+
+small{
+    display: inline-block;
+    width: 70%;
+}
+
+.mybutton{
+    background-color: burlywood;
+    color: white;
+    padding: 1% 5% 1% 5%;
+    width:100%;
+}
+
+.ui-panel{
+    font-size: 90%;
+    background-color: lightgoldenrodyellow; 
+    width:auto;
+    margin:auto;
+}
+
+.ui-panel .ui-panel-titlebar{
+    background-color:burlywood;
+    color: #000000;
+}
+

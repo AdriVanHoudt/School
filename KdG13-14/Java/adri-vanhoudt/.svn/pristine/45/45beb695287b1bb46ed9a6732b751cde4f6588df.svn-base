@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Profile - Repair Cafe</title>
+        <h:outputStylesheet library="css" name="main.css" />
+    </h:head>
+    <h:body>
+        <p:panel header="#{profileBean.username}" footer="Repair Cafe 2013">
+
+            <h:graphicImage library="images" name="repaircafe_logo.png" />                        
+            <h:form id="user">
+                <h:panelGrid id="grid" columns="3">
+                    <h:outputLabel for="firstname" value="firstname: " />
+                    <p:inputText id="firstname" value="#{profileBean.firstname}" label="firstname" required="true"/>
+                    <p:message for="firstname"/>
+
+                    <h:outputLabel for="lastname" value="lastname: " />
+                    <p:inputText id="lastname" value="#{profileBean.lastname}" label="lastname" required="true"/>
+                    <p:message for="lastname"/>
+
+                    <h:outputLabel for="street" value="street: " />
+                    <p:inputText id="street" value="#{profileBean.street}" label="street" required="true"/>
+                    <p:message for="street"/>
+
+                    <h:outputLabel for="nr" value="nr: " />
+                    <p:inputText id="nr" value="#{profileBean.nr}" label="nr" required="true"/>
+                    <p:message for="nr"/>
+
+                    <h:outputLabel for="zip" value="zip: " />
+                    <p:inputText id="zip" value="#{profileBean.zip}" label="zip" required="true"/>
+                    <p:message for="zip"/>
+
+                    <h:outputLabel for="city" value="city: " />
+                    <p:inputText id="city" value="#{profileBean.city}" label="city" required="true"/>
+                    <p:message for="city"/>
+                    
+                    <p:commandButton id="update" update="user" styleClass="mybutton" value="Update Info" action="#{profileBean.updateUser()}" />
+                </h:panelGrid>
+            </h:form> 
+            <h:form id="password">
+                <h:panelGrid id="grid2" columns="3">
+                    <h:outputLabel for="old_password" value="old password: " />
+                    <p:password id="old_password" value="#{profileBean.old_password}" label="old_password" >
+                        <f:validateLength minimum="3"/>  
+                    </p:password>
+                    <p:message for="old_password"/>
+
+                    <h:outputLabel for="new_password" value=" new password: " />
+                    <p:password id="new_password" value="#{profileBean.new_password}" label="new_password" feedback="true">
+                        <f:validateLength minimum="3"/>
+                    </p:password>
+                    <p:message for="new_password"/>
+                    
+                    <p:commandButton id="updatePassword" update="password" styleClass="mybutton" value="Update Passwords" action="#{profileBean.updatePassword()}" />
+                </h:panelGrid>
+            </h:form>
+            <small>Tip: Client: jan.peeters@student.kdg.be, password: jan</small>
+            <small>Tip: Repairer: wouter.deketelaere@kdg.be, password: wouter</small>        
+        </p:panel>
+    </h:body>
+</html>

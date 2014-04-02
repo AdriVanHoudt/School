@@ -1,0 +1,9 @@
+be\kdg\repaircafe\beans\RegisterUserBean.class
+be\kdg\repaircafe\beans\NewRepairBean.class
+be\kdg\repaircafe\beans\ProfileBean.class
+be\kdg\repaircafe\beans\UserBean.class
+be\kdg\repaircafe\beans\ProfileBeanBeanInfo.class
+be\kdg\repaircafe\scopes\ViewScope.class
+be\kdg\repaircafe\beans\UtilBean.class
+be\kdg\repaircafe\beans\ApplicationBean.class
+be\kdg\repaircafe\filters\AuthFiter.class
